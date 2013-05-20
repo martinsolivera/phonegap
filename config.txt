@@ -1,0 +1,4 @@
+<plugin name="Camera" value="CDVCamera" />
+<plugin name="File" value="CDVFile" />
+<plugin name="FileTransfer" value="CDVFileTransfer" />
+<plugin name="Media" value="CDVSound" />
