@@ -1,5 +1,0 @@
-<plugin name="Media" value="org.apache.cordova.AudioHandler" />
-<plugin name="File" value="org.apache.cordova.FileUtils" />
-<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
-<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
-<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
