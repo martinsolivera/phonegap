@@ -1,0 +1,53 @@
+[{
+	"Loja": {
+		"Cidades": [{
+			"Cidade 1": [{
+				"id": 11,
+				"regiao": "Barueri",
+				"titulo": "Alphaville",
+				"endereco": "Rua José Cordeiro Pereira, 77",
+				"latitude": -23.5388539,
+				"longitude": -46.207417899999996,
+				"cep": "111",
+				"gerente": "Apenas um teste",
+				"email": "teste@teste.com",
+				"telefone": "11 0000.0000",
+				"horarioS": "11h, 20hs",
+				"horarioF": "11h, 20hs",
+				"galeria": []
+			}, {
+				"id": 12,
+				"regiao": "São Paulo",
+				"titulo": "Aricanduva",
+				"endereco": "Rua José Cordeiro Pereira, 77",
+				"latitude": -23.5388539,
+				"longitude": -46.207417899999996,
+				"cep": "222",
+				"gerente": "teste",
+				"email": "teste@teste.com",
+				"telefone": "11 0000.0000",
+				"horarioS": "11h, 20hs",
+				"horarioF": "11h, 20hs",
+				"galeria": []
+			}]
+		}, {
+			"Cidade 2": [{
+				"id": 21,
+				"regiao": "Barueri",
+				"titulo": "Alphaville2",
+				"endereco": "Rua José Cordeiro Pereira, 77",
+				"latitude": -23.5388539,
+				"longitude": -46.207417899999996,
+				"cep": "333",
+				"gerente": "Apenas um teste",
+				"email": "teste@teste.com",
+				"telefone": "11 0000.0000",
+				"horarioS": "11h, 20hs",
+				"horarioF": "11h, 20hs",
+				"galeria": []
+			}]
+		}]
+	},
+
+	"Regiao": {}
+}]

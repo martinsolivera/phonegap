@@ -1,0 +1,26 @@
+[
+	{
+		"id" : "1",
+		"oferta" : "Oferta 01",
+		"galeria" : "img/galeria/foto_1_16.jpg",
+		"destaque" : 1
+	},
+	{
+		"id" : "3",
+		"oferta" : "Oferta 02",
+		"galeria" : "img/galeria/foto_3_14.jpg",
+		"destaque" : 0
+	},
+	{
+		"id" : "14",
+		"oferta" : "Oferta 03",
+		"galeria" : "img/galeria/foto_14_23.jpg",
+		"destaque" : 0
+	},
+	{
+		"id" : "14",
+		"oferta" : "Oferta 03",
+		"galeria" : "img/galeria/foto_14_23.jpg",
+		"destaque" : 1
+	}
+]

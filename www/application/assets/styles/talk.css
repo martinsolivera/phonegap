@@ -1,0 +1,281 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - TALK
+ */
+
+/* Talk */
+#talk                                                           											{ position: relative; width: 100%; height: 100%; overflow: hidden; background: #ffffff; }
+#talk .page 																								{ position: relative; width: 200%; height: 100%; overflow: hidden; }
+#talk .page .content 																						{ position: relative; float: left; width: 50%; height: 100%; overflow: hidden; }
+#talk .page .content .heading                                   											{ position: relative; padding-top: 54px; font-family: 'signikaregular'; color: #96989a; }
+#talk .page .content .heading .title                            											{ display: table; margin: 0 auto; text-transform: uppercase; }
+#talk .page .content .heading .title img                        											{ float: left; }
+#talk .page .content .nav                                       											{ position: relative; }
+#talk .page .content .nav .tip                                  											{ text-align: center; font-family: 'signikaregular'; color: #7f7f7f; }
+#talk .page .content .nav .menu                                 											{ margin: 0 auto; }
+#talk .page .content .nav .menu .nav-tile span                  											{ font-family: 'signikaregular'; color: #ffffff; }
+
+#talk .page .pages													   										{ position: relative; width: 50%; height: 100%; overflow: hidden; }
+#talk .page .pages .nav-button-back                 				   										{ position: absolute; top: 0px; left: 0px; z-index: 900; }
+#talk .page .pages .nav-button-back img       						   										{ position: absolute; height: 47px; width: 51px; }
+#talk .page .pages #ourStores_wrapper                                  										{ position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 4; }
+#talk .page .pages #ourStores_wrapper .nav-button-back                 										{ position: absolute; top: 0px; left: 0px; border: none; }
+#talk .page .pages #ourStores_wrapper .nav-button-back .back           										{ height: 47px; width: 51px; }
+#talk .page .pages #ourStores_wrapper .wrapper_top                     										{ position: relative; height: 50px; padding-top: 47px; font-family: 'signikaregular'; color: #96989a; }
+#talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title      										{ display: table; margin: 15px auto; text-transform: uppercase; }
+#talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title img  										{ float: left; margin-right: 5px; }
+#talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title p    										{ float: right; }
+#talk .page .pages #ourStores_wrapper .divisor                         										{ width: 100%; }
+#talk .page .pages #ourStores_wrapper .subtitle                       		 								{ position: relative; height: 25px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#talk .page .pages #ourStores_wrapper .menu                            										{ position: relative; margin-top: 25px; max-width: 800px; }
+#talk .page .pages #ourStores_wrapper .menu .button                    										{ position: relative; width: 100%; background: #9fa3a8; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #7f8286; margin-bottom: 47px; display: table; }
+#talk .page .pages #ourStores_wrapper .menu .button .image             										{ position: relative; height: 100%; display: table-cell; vertical-align: middle; }
+#talk .page .pages #ourStores_wrapper .menu .button .line             	 									{ position: relative; width: 1px; height: 100%; background: #7f8286; display: table-cell; vertical-align: middle; }
+#talk .page .pages #ourStores_wrapper .menu .button .label             										{ position: relative; height: 100%; text-align: center; color: #FFF; padding-left: 10px; padding-right: 10px; display: table-cell; vertical-align: middle; }
+
+#talk .page .pages #maps_wrapper                                       										{ position: absolute; width: 100%; height: 100%; top: 0px; z-index: 5; display: none; }
+#talk .page .pages #maps_wrapper .buttons                              										{ position: absolute; width: 53.5px; height: 100%; z-index: 2; left: 100%; margin-left: -53.5px; }
+#talk .page .pages #maps_wrapper .buttons .info                        										{ position: absolute; bottom: 53px; }
+#talk .page .pages #maps_wrapper .buttons .info .on                   						 				{ position: absolute; }
+#talk .page .pages #maps_wrapper .buttons .info .out                   										{ position: absolute; display: none; }
+#talk .page .pages #maps_wrapper .buttons .close                       										{ position: absolute; top: 0px; }
+#talk .page .pages #maps_wrapper .infos                                										{ position: absolute; width: 100%; height: 186px; background: url( '../images/talk/stores_info_bk.png' ); z-index: 3; display: block; bottom: -200px; }
+#talk .page .pages #maps_wrapper .infos .header_info                        								{ position: relative; margin-left: 12px; margin-right: 12px; display: table; margin-top: 30px; }
+#talk .page .pages #maps_wrapper .infos .header_info .storesImg            				 					{ position: relative; width: 97px; height: 76.5px; overflow: hidden; display: table-cell; vertical-align: middle; }
+#talk .page .pages #maps_wrapper .infos .header_info .infoText              								{ position: relative; display: table-cell; vertical-align: middle; padding-left: 12px; }
+#talk .page .pages #maps_wrapper .infos .header_info .infoText .name        								{ color: #ffd900; font-family: 'signikabold'; font-size: 20px; line-height: 15px; }
+#talk .page .pages #maps_wrapper .infos .header_info .infoText .adress      								{ color: #abadb0; font-family: 'signikaregular'; font-size: 12px; }
+#talk .page .pages #maps_wrapper .infos .footer                        										{ position: relative; margin-left: 12px; margin-right: 12px; margin-top: 12px; background: #2d3136; display: table; font-family: 'signikaregular'; color: #abadb0; font-size: 10px; line-height: 10px; padding-top: 6px; padding-bottom: 6px; }
+#talk .page .pages #maps_wrapper .infos .footer .hours                 										{ position: relative; width: 143px; display: table-cell; padding-left: 12px; padding-right: 12px; text-align: center; }
+#talk .page .pages #maps_wrapper .infos .footer .hours .imgText        										{ position: relative; width: 100%; margin-top: 5px; }
+#talk .page .pages #maps_wrapper .infos .footer .phones                										{ position: relative; width: 143px; margin-left: 12px; display: table-cell; text-align: center; }
+#talk .page .pages #maps_wrapper .infos .footer .phones .imgText       										{ position: relative; width: 100%; font-size: 16px; margin-top: 5px; vertical-align: middle; text-align: center; line-height: 16px; }
+#talk .page .pages #maps_wrapper .maps                                 										{ position: absolute; width: 100%; height: 100%; z-index: 1; background: #c00; }
+#talk .page .pages #maps_wrapper .maps img                             										{ width: 100%; }
+
+#talk .page .pages #list_wrapper                                                                           	{ position: absolute; width: 100%; height: 100%; background: #FFF; top: 0px; z-index: 5; display: none; }
+#talk .page .pages #list_wrapper .top                                                                      	{ position: absolute; height: 52px; width: 100%; z-index: 2; background: #FFF; font-family: 'signikaregular'; color: #96989a; }
+#talk .page .pages #list_wrapper .top .title                                                               	{ display: table; margin: 15px auto; text-transform: uppercase; }
+#talk .page .pages #list_wrapper .top .title img                                                           	{ float: left; margin-right: 5px; }
+#talk .page .pages #list_wrapper .top .title p                                                             	{ float: right; }
+#talk .page .pages #list_wrapper .divisor                                                                  	{ width: 100%; }
+#talk .page .pages #list_wrapper .close                                                                    	{ position: absolute; top: 12px; left: 100%; margin-left: -35px; z-index: 2; }
+#talk .page .pages #list_wrapper .contentList															   	{ position: absolute; width: 100%; height: 100%; top: 0px; padding-top: 54px; overflow: scroll; }
+#talk .page .pages #list_wrapper .contentList .divList                                                     	{ position: relative; width: 297px; padding-left: 12px; padding-right: 12px; padding-bottom: 60px; }
+#talk .page .pages #list_wrapper .contentList .divList .title                                              	{ position: relative; width: 297px; height: 47.5px; display: table-cell; vertical-align: middle; padding-left: 10px; padding-right: 10px; font-family: 'signikalight'; color: #FFF; font-size: 20px; background: #9fa3a8; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #4f5154; text-align: center; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities                                         	{ position: relative; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .tl_cities                              	{ position: relative; width: 297px; height: 47.5px; display: table-cell; vertical-align: middle; border-bottom: 1px solid #e5e5e5; padding-left: 12px; text-align: left;	 }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .tl_cities a                            	{ position: relative; width: 100%; font-family: 'signikaregular'; color: #2d3136; font-size: 13px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities                              	{ position: relative; font-family: 'signikaregular'; color: #8c8f93; font-size: 11px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .address                     	{ position: relative; display: table; background: #eaedf1; padding: 6px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .address .line               	{ position: relative; float: left; padding-left: 6px; padding-right: 6px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos                       	{ position: relative; background: #96989a; color: #cfd0ce; padding-top: 6px; padding-bottom: 6px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .hours                	{ position: relative; width: 143px; display: table-cell; padding-left: 6px; padding-right: 6px; text-align: center; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .hours .imgText       	{ position: relative; width: 100%; margin-top: 5px; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .phones               	{ position: relative; width: 143px; margin-left: 12px; display: table-cell; text-align: center; }
+#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .phones .imgText      	{ position: relative; width: 100%; font-size: 16px; margin-top: 5px; vertical-align: middle; text-align: center; line-height: 16px; }
+
+#talk .page .pages #sac_wrapper                                    											{ position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 5; display: none; }
+#talk .page .pages #sac_wrapper .nav-button-back                   											{ position: absolute; top: 0px; left: 0px; border: none; }
+#talk .page .pages #sac_wrapper .nav-button-back .back             											{ height: 47px; width: 51px; }
+#talk .page .pages #sac_wrapper .wrapper_top                       											{ position: relative; width: 100%; height: 50px; padding-top: 47px; font-family: 'signikaregular'; color: #96989a; text-align: center; }
+#talk .page .pages #sac_wrapper .wrapper_top .wrapper_title        											{ position: relative; width: 69px; height: 50px; text-transform: uppercase; display: table; margin: 0 auto; }
+#talk .page .pages #sac_wrapper .wrapper_top .wrapper_title img    											{ position: relative; display: table-cell; vertical-align: middle; width: 28px; height: 33px; }
+#talk .page .pages #sac_wrapper .wrapper_top .wrapper_title span   											{ position: relative; display: table-cell; vertical-align: middle; width: 28px; height: 33px; }
+#talk .page .pages #sac_wrapper .divisor                           											{ width: 100%; }
+#talk .page .pages #sac_wrapper .subtitle                          											{ position: relative; height: 25px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#talk .page .pages #sac_wrapper .divList                           											{ position: relative; display: table; overflow: scroll; }
+#talk .page .pages #sac_wrapper .divList .item                     											{ position: relative; text-align: center; font-family: 'signikaregular'; color: #3f4752; border-bottom: 1px solid #e5e5e5; margin: 25px 50px 25px 50px; padding-bottom: 25px; }
+#talk .page .pages #sac_wrapper .divList .item .title              											{ position: relative; font-size: 15px; margin-bottom: 5px; }
+#talk .page .pages #sac_wrapper .divList .item .desc               											{ position: relative; font-size: 11px; margin-bottom: 5px; line-height: 11px; }
+#talk .page .pages #sac_wrapper .divList .item .button             											{ position: relative; width: 210px; height: 47px; background: url( '../images/talk/sac_button_back.jpg' ) repeat-x; display: table; padding-left: 12px; margin-bottom: 5px; }
+#talk .page .pages #sac_wrapper .divList .item .button .image      											{ position: relative; height: 16px; display: table-cell; vertical-align: middle; }
+#talk .page .pages #sac_wrapper .divList .item .button .number    	 										{ position: relative; height: 47px; font-size: 24px; color: #bf0418; display: table-cell; vertical-align: middle; }
+#talk .page .pages #sac_wrapper .divList .item .info               											{ position: relative; font-size: 11px; color: #a3a3a3; line-height: 11px; }
+
+#talk .page .pages #social_wrapper                                     										{ position: absolute; width: 100%; height: 100%; background: #FFF; top: 0px; z-index: 5; display: block; }
+#talk .page .pages #social_wrapper .nav-button-back                    										{ position: absolute; top: 0px; left: 0px; border: none; }
+#talk .page .pages #social_wrapper .nav-button-back .back              										{ height: 47px; width: 51px; }
+#talk .page .pages #social_wrapper .wrapper_top                        										{ position: relative; height: 50px; padding-top: 47px; font-family: 'signikaregular'; color: #96989a; }
+#talk .page .pages #social_wrapper .wrapper_top .wrapper_title         										{ display: table; margin: 15px auto; text-transform: uppercase; }
+#talk .page .pages #social_wrapper .wrapper_top .wrapper_title img     										{ float: left; margin-right: 5px; }
+#talk .page .pages #social_wrapper .wrapper_top .wrapper_title p       										{ float: right; }
+#talk .page .pages #social_wrapper .divisor                            										{ width: 100%; }
+#talk .page .pages #social_wrapper .subtitle                           										{ position: relative; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; margin-bottom: 15px; }
+#talk .page .pages #social_wrapper .wrapper                           	 									{ position: relative; width: 297px; margin-left: 12px; margin-right: 12px; display: table; }
+#talk .page .pages #social_wrapper .wrapper .twitter                  	 									{ position: relative; width: 50%; height: 150px; float: left; }
+#talk .page .pages #social_wrapper .wrapper .twitter .image            										{ position: relative; margin-top: 40px; margin-bottom: 10px; }
+#talk .page .pages #social_wrapper .wrapper .twitter .button           										{ position: relative; width: 100%; text-align: center; }
+#talk .page .pages #social_wrapper .wrapper .facebook                  										{ position: relative; width: 50%; height: 150px; float: left; }
+#talk .page .pages #social_wrapper .wrapper .facebook .image           										{ position: relative; margin-top: 50px; margin-bottom: 10px; }
+#talk .page .pages #social_wrapper .wrapper .facebook .button          										{ position: relative; width: 100%; text-align: center; }
+
+#talk .page .pages #faq_wrapper                                                            					{ position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 5; display: none; }
+#talk .page .pages #faq_wrapper .nav-button-back                                           					{ position: absolute; width: 100%; height: 47px; background: #fff; top: 0px; left: 0px; border: none; z-index: 2; }
+#talk .page .pages #faq_wrapper .nav-button-back .back                                     					{ height: 47px; width: 51px; margin-left: 0px; }
+#talk .page .pages #faq_wrapper .wrapper                                                   					{ position: relative; width: 100%; height: 100%; padding-top: 47px; font-family: 'signikaregular'; color: #96989a; text-align: center; z-index: 1; overflow: scroll; }
+#talk .page .pages #faq_wrapper .wrapper .search                                           					{ position: relative; width: 100%; height: 47px; background: #c0c1c2; font-family: 'signikalight'; color: #c1c3c6; font-size: 11px; }
+#talk .page .pages #faq_wrapper .wrapper .search .field                                    					{ position: absolute; width: 220px; height: 24px; background: #fff; border-radius: 25px; top: 50%; margin-top: -12px; left: 50%; margin-left: -110px; }
+#talk .page .pages #faq_wrapper .wrapper .search .field img                                					{ position: absolute; top: 5px; left: 90%; }
+#talk .page .pages #faq_wrapper .wrapper .search .field .input                             					{ position: relative; width: 90%; height: 80%; margin-left: 10px; text-align: left; padding-top: 5px; }
+#talk .page .pages #faq_wrapper .wrapper .wrapper_top                                      					{ position: relative; width: 100%; height: 50px; }
+#talk .page .pages #faq_wrapper .wrapper .wrapper_top .wrapper_title                       					{ position: relative; width: 69px; height: 50px; text-transform: uppercase; display: table; margin: 0 auto; }
+#talk .page .pages #faq_wrapper .wrapper .wrapper_top .wrapper_title img                   					{ position: relative; height: 20px; margin-top: 14px;  }
+#talk .page .pages #faq_wrapper .wrapper .wrapper_top .wrapper_title span                 		 			{ position: relative; height: 20px; display: table-cell; vertical-align: middle; }
+#talk .page .pages #faq_wrapper .wrapper .divisor                                          					{ width: 100%; }
+#talk .page .pages #faq_wrapper .subtitle                                                  					{ position: relative; height: 47px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#talk .page .pages #faq_wrapper .divList                                                   					{ position: relative; padding-right: 12px; padding-left: 12px; padding-bottom: 12px; }
+#talk .page .pages #faq_wrapper .divList .item                                             					{ position: relative; margin-bottom: 47px; }
+#talk .page .pages #faq_wrapper .divList .item .title                                      					{ position: relative; margin-bottom: 10px; color: #3f4752; text-align: left; font-size: 11px; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst                                					{ position: relative; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst                      					{ position: relative; width: 100%; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst               				{ position: relative; width: 92%; padding: 17px 12px; background: #9fa3a8; color: #FFF; text-align: left; font-size: 12px; display: table; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #7f8286; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst .number       				{ position: absolute; width: 34px; height: 100%; z-index: 2; margin-top: -17px; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst .number span  				{ position: absolute; width: 20px; height: 20px; background: #FFF; color: #9fa3a8; border-radius: 10px; text-align: center; top: 50%; left: 50%; margin-left: -10px; margin-top: -10px; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst a          				{ position: relative; width: 220px; margin-left: 46px; display: table; }
+#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .answer                  				{ position: relative; padding: 12px; color: #8d8d8d; font-size: 11px; line-height: 13px; font-family: 'signikalight'; text-align: left; display: table; }
+
+
+
+
+
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+    /* Talk */
+    #talk .content .heading 							{ font-size: 15px; }
+    #talk .page .content .heading 						{ margin: 11px 0; }
+    #talk .page .content .heading .title 				{ width: 170px; }
+    #talk .page .content .heading .title img 			{ margin-right: 8px; height: 23px; }
+    #talk .page .content .heading .title p 				{ padding-top: 4px; }
+    #talk .page .content .divisor 						{ height: 1px; }
+    #talk .page .content .nav 							{ margin-top: 17px; }
+    #talk .page .content .nav .menu 					{ width: 287px; }
+    #talk .page .content .nav .menu .nav-tile 			{ width: 143px; height: 140px; }
+    #talk .page .content .nav .menu .nav-tile img 		{ margin-bottom: 9px; }
+    #talk .page .content .nav .menu .nav-tile .stores 	{ height: 17px; }
+    #talk .page .content .nav .menu .nav-tile .sac 		{ height: 52px; }
+    #talk .page .content .nav .menu .nav-tile .social 	{ height: 26px; }
+    #talk .page .content .nav .menu .nav-tile .faq 		{ height: 35px; }
+    #talk .page .content .nav .menu .nav-tile span 		{ font-size: 11px; }
+
+    /*#talk .page .pages #ourStores_wrapper .wrapper_top  					{ font-size: 21px; }*/
+    #talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title img  	{ height: 16px; }
+    #talk .page .pages #ourStores_wrapper .subtitle                        	{ margin-top: 25px; }
+    #talk .page .pages #ourStores_wrapper .menu                            	{ margin-left: 51px; margin-right: 51px; }
+    #talk .page .pages #ourStores_wrapper .menu .button                    	{ height: 47px; }
+    #talk .page .pages #ourStores_wrapper .menu .button .image             	{ width: 47px; }
+    #talk .page .pages #ourStores_wrapper .menu .button .label             	{ font-size: 15px; }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+    /* Talk */
+    #talk .content .heading 																					{ font-size: 21px; }
+    #talk .page .content .heading 																				{ margin: 22px 0; }
+    #talk .page .content .heading .title 																		{ width: 240px; }
+    #talk .page .content .heading .title img 																	{ margin-right: 12px; height: 34px; }
+    #talk .page .content .heading .title p 																		{ padding-top: 8px; }
+    #talk .page .content .divisor 																				{ height: 2px; }
+    #talk .page .content .nav 																					{ margin-top: 35px; }
+    #talk .page .content .nav .menu 																			{ width: 440px; }
+    #talk .page .content .nav .menu .nav-tile 																	{ width: 220px; height: 220px; }
+    #talk .page .content .nav .menu .nav-tile img 																{ margin-bottom: 18px; }
+    #talk .page .content .nav .menu .nav-tile .stores 															{ height: 24px; }
+    #talk .page .content .nav .menu .nav-tile .sac 																{ height: 95px; }
+    #talk .page .content .nav .menu .nav-tile .social 															{ height: 43px; }
+    #talk .page .content .nav .menu .nav-tile .faq 																{ height: 60px; }
+    #talk .page .content .nav .menu .nav-tile span 																{ font-size: 18px; }
+
+    #talk .page .pages #ourStores_wrapper .wrapper_top  														{ font-size: 21px; height: 90px; }
+    #talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title      										{ margin: 31px auto; height: 5px; }
+    #talk .page .pages #ourStores_wrapper .wrapper_top .wrapper_title img  										{ height: 24px; }
+    #talk .page .pages #ourStores_wrapper .subtitle                        										{ margin-top: 39px; font-size: 18px; }
+    #talk .page .pages #ourStores_wrapper .menu                            										{ margin-left: 150px; margin-right: 150px; }
+    #talk .page .pages #ourStores_wrapper .menu .button                    										{ height: 80px; }
+    #talk .page .pages #ourStores_wrapper .menu .button .image             										{ width: 80px; }
+    #talk .page .pages #ourStores_wrapper .menu .button .label             										{ font-size: 21px; }
+
+    #talk .page .pages #maps_wrapper .infos .header_info                        								{ width: 510px; float: left; }
+    #talk .page .pages #maps_wrapper .infos .header_info .storesImg img           				 				{ height: 140px; }
+    #talk .page .pages #maps_wrapper .infos .header_info .infoText .name        								{ font-size: 32px; line-height: 32px; }
+    #talk .page .pages #maps_wrapper .infos .header_info .infoText .adress      								{ font-size: 18px; }
+    #talk .page .pages #maps_wrapper .infos .footer                        										{ margin-top: 28px; font-size: 18px; line-height: 18px; padding-top: 0px; padding-bottom: 0px; float: left; width: 466px; height: 143px; }
+    #talk .page .pages #maps_wrapper .infos .footer .hours                 										{ height: 100%; vertical-align: middle; }
+    #talk .page .pages #maps_wrapper .infos .footer .phones                										{ height: 100%; vertical-align:  middle; }
+    #talk .page .pages #maps_wrapper .infos .footer .phones .imgText       										{ font-size: 21px; line-height: 21px; }
+
+    #talk .page .pages #list_wrapper .close                                                                    	{ top: 19px; margin-left: -62px; }
+    #talk .page .pages #list_wrapper .close img                                                                	{ height: 46px; }
+    #talk .page .pages #list_wrapper .top                                                                      	{ height: 90px; font-size: 21px }
+	#talk .page .pages #list_wrapper .top .title                                                               	{ margin: 29px auto; }
+	#talk .page .pages #list_wrapper .top .title img                                                           	{ height: 23px; }
+	#talk .page .pages #list_wrapper .contentList															   	{ padding-top: 90px; }
+	#talk .page .pages #list_wrapper .contentList .divList                                                     	{ width: 700px; margin: 0 auto; }
+	#talk .page .pages #list_wrapper .contentList .divList .title                                              	{ width: 700px; height: 74px; font-size: 30px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .tl_cities                              	{ width: 700px; height: 70px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .tl_cities a                            	{ font-size: 18px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities                              	{ font-size: 18px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities img                          	{ float: left; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .address                     	{ height: 131px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .address .line               	{ text-align: left; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .hours                	{ width: 350px; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .phones               	{ width: 350px; vertical-align: middle; }
+	#talk .page .pages #list_wrapper .contentList .divList .lst_cities .ct_cities .infos .phones .imgText      	{ font-size: 20px; line-height: 20px; }
+
+	#talk .page .pages #sac_wrapper .wrapper_top                       											{ font-size: 21px; height: 90px; }
+	#talk .page .pages #sac_wrapper .wrapper_top .wrapper_title        											{ width: 99px; height: 90px; }
+	#talk .page .pages #sac_wrapper .wrapper_top .wrapper_title img    											{ height: 66px; width: 56px; }
+	#talk .page .pages #sac_wrapper .divList                           											{ width: 700px; margin: 0 auto; }
+	#talk .page .pages #sac_wrapper .divList .item .title              											{ font-size: 30px; }
+	#talk .page .pages #sac_wrapper .divList .item .desc               											{ font-size: 16px; margin-bottom: 25px; line-height: 16px; }
+	#talk .page .pages #sac_wrapper .divList .item .button             											{ width: 100%; height: 80px; background: url( '../images/talk/sac_button_back.jpg' ) repeat-x; background-size: 4px; margin-bottom: 25px; }
+	#talk .page .pages #sac_wrapper .divList .item .button .image img  											{ height: 33px; }
+	#talk .page .pages #sac_wrapper .divList .item .button .number    	 										{ font-size: 48px; }
+	#talk .page .pages #sac_wrapper .divList .item .info               											{ font-size: 16px; line-height: 16px; }
+
+	#talk .page .pages #social_wrapper .wrapper_top                        										{ height: 90px; font-size: 21px; }
+	#talk .page .pages #social_wrapper .wrapper_top .wrapper_title         										{ margin: 25px auto; }.
+	#talk .page .pages #social_wrapper .wrapper_top .wrapper_title img     										{ height: 29px }
+	#talk .page .pages #social_wrapper .subtitle                           										{ font-size: 18px; margin-bottom: 35px; }
+	#talk .page .pages #social_wrapper .wrapper                           	 									{ width: 700px; margin: 0 auto; }
+	#talk .page .pages #social_wrapper .wrapper .twitter                  	 									{ width: 348px; height: 348px; border: solid 1px #EBEBEB; }
+	#talk .page .pages #social_wrapper .wrapper .twitter .image            										{ margin-top: 110px; }
+	#talk .page .pages #social_wrapper .wrapper .twitter .image img        										{ height: 82px; }
+	#talk .page .pages #social_wrapper .wrapper .facebook                  										{ width: 348px; height: 348px; border: solid 1px #EBEBEB; }
+	#talk .page .pages #social_wrapper .wrapper .facebook .image           										{ margin-top: 130px; }
+	#talk .page .pages #social_wrapper .wrapper .facebook .image img        									{ height: 67px; }
+
+	
+	#talk .page .pages #faq_wrapper .wrapper .search                                           					{ padding-top: 12px; }
+	#talk .page .pages #faq_wrapper .wrapper .search .field                                    					{ position: relative; width: 670px; height: 33px;  border-radius: 65px; top: 0; margin-top: 0; left: 0; margin-left: 0; margin: 0 auto; font-size: 14px; }
+	#talk .page .pages #faq_wrapper .wrapper .search .field img                                					{ height: 24px; left: 95%; }
+	#talk .page .pages #faq_wrapper .wrapper .search .field .input                             					{ width: 90%; height: 100%; margin-left: -20px; padding-top: 0px; }
+	#talk .page .pages #faq_wrapper .wrapper .wrapper_top                                      					{ height: 90px; }
+	#talk .page .pages #faq_wrapper .wrapper .wrapper_top .wrapper_title                       					{ width: 100px; height: 90px; margin: 0 auto; font-size: 21px; }
+	#talk .page .pages #faq_wrapper .wrapper .wrapper_top .wrapper_title img                   					{ height: 40px; margin-top: 24px; }
+	#talk .page .pages #faq_wrapper .subtitle                                                  					{ width: 700px; height: 47px; margin: 0 auto; margin-top: 25px; font-size: 18px; }
+	#talk .page .pages #faq_wrapper .divList                                                   					{ width: 700px; margin: 0 auto; padding-right: 0px; padding-left: 0px; }
+	#talk .page .pages #faq_wrapper .divList .item .title                                      					{ font-size: 16px; }
+	#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst               				{ width: 676px; padding: 24px 12px; font-size: 16px; }
+	#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst .number       				{ height: 80%; }
+	#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .title_qst a          				{ width: 624px; }
+	#talk .page .pages #faq_wrapper .divList .item .divList_qst .item_qst .answer                  				{ font-size: 16px; line-height: 18px; }
+	
+
+
+}
+
+

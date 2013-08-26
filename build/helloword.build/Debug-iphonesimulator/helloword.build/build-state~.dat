@@ -1,0 +1,633 @@
+Thelloword
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/waldemir/Desktop/helloword/build/helloword.app/Info.plist helloword/helloword-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh
+cCpResource helloword/config.xml build/helloword.app/config.xml
+cCpResource helloword/Resources/icons/icon.png build/helloword.app/icon.png
+cCpResource helloword/Resources/icons/icon-72.png build/helloword.app/icon-72.png
+cCpResource helloword/Resources/icons/icon@2x.png build/helloword.app/icon@2x.png
+cCpResource helloword/Resources/Capture.bundle build/helloword.app/Capture.bundle
+cCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/en.lproj/Localizable.strings helloword/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/es.lproj/Localizable.strings helloword/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib
+cCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/de.lproj/Localizable.strings helloword/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/se.lproj/Localizable.strings helloword/Resources/se.lproj/Localizable.strings
+cCpResource helloword/Resources/splash/Default-Landscape@2x~ipad.png build/helloword.app/Default-Landscape@2x~ipad.png
+cCpResource helloword/Resources/splash/Default-Landscape~ipad.png build/helloword.app/Default-Landscape~ipad.png
+cCpResource helloword/Resources/splash/Default-Portrait@2x~ipad.png build/helloword.app/Default-Portrait@2x~ipad.png
+cCpResource helloword/Resources/splash/Default-Portrait~ipad.png build/helloword.app/Default-Portrait~ipad.png
+cCpResource helloword/Resources/splash/Default@2x~iphone.png build/helloword.app/Default@2x~iphone.png
+cCpResource helloword/Resources/splash/Default~iphone.png build/helloword.app/Default~iphone.png
+cCpResource helloword/Resources/icons/icon-72@2x.png build/helloword.app/icon-72@2x.png
+cCpResource helloword/Resources/splash/Default-568h@2x~iphone.png build/helloword.app/Default-568h@2x~iphone.png
+cProcessPCH /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth helloword/helloword-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o /Users/waldemir/Desktop/helloword/helloword/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o /Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/waldemir/Desktop/helloword/build/helloword.app/helloword normal i386
+cGenerateDSYMFile /Users/waldemir/Desktop/helloword/build/helloword.app.dSYM /Users/waldemir/Desktop/helloword/build/helloword.app/helloword
+cTouch /Users/waldemir/Desktop/helloword/build/helloword.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051D780E300000000001EB540
+t1373077731
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000051D780E300000000000C1030
+t1373077731
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000051D780E30000000000193640
+t1373077731
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000051D780E300000000000226E0
+t1373077731
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051D780E300000000003D4DF0
+t1373077731
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000051D780E30000000000215DB0
+t1373077731
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051D780E30000000000228FE0
+t1373077731
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051D780E3000000000009C590
+t1373077731
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051D780E40000000000085620
+t1373077732
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051D780E500000000003DDFA0
+t1373077733
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000051D780E600000000002CFBE0
+t1373077734
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000051D780E600000000002DBA50
+t1373077734
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000051D780E700000000000BCC20
+t1373077735
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000051D780E70000000000030EB0
+t1373077735
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051D780E700000000001D5750
+t1373077735
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051D780E7000000000006CC50
+t1373077735
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051D780E90000000000AB6230
+t1373077737
+s11231792
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app.dSYM
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Capture.bundle
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Default~iphone.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/Info.plist
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/MainViewController.nib
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/PkgInfo
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/config.xml
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/helloword
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/icon-72.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/icon-72@2x.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/icon.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/icon@2x.png
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/helloword.LinkFileList
+c0000000051D9E0AE0000000000000180
+t1373233326
+s384
+
+N/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh
+c0000000051D9E0AE000000000000051A
+t1373233326
+s1306
+
+N/Users/waldemir/Desktop/helloword/build/libCordova.a
+c0000000051D9E0AE000000000036EEB0
+t1373233326
+s3600048
+
+N/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m
+c0000000051D9E07300000000000013D8
+t1373233267
+s5080
+
+N/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m
+c0000000051D9E073000000000000126A
+t1373233267
+s4714
+
+N/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib
+c0000000051D9E0730000000000001759
+t1373233267
+s5977
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/Capture.bundle
+c0000000051D9E073000000000000030E
+t1373233267
+s782
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/de.lproj/Localizable.strings
+c0000000051D9E07300000000000004BF
+t1373233267
+s1215
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/en.lproj/Localizable.strings
+c0000000051D9E07300000000000004AA
+t1373233267
+s1194
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/es.lproj/Localizable.strings
+c0000000051D9E07300000000000004B7
+t1373233267
+s1207
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon-72.png
+c0000000051D9E0730000000000001350
+t1373233267
+s4944
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon-72@2x.png
+c0000000051D9E0730000000000002DBA
+t1373233267
+s11706
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon.png
+c0000000051D9E0730000000000000F3E
+t1373233267
+s3902
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon@2x.png
+c0000000051D9E0730000000000001EBD
+t1373233267
+s7869
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/se.lproj/Localizable.strings
+c0000000051D9E07300000000000004AB
+t1373233267
+s1195
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-568h@2x~iphone.png
+c0000000051D9E07300000000000085B1
+t1373233267
+s34225
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051D9E0730000000000012DF4
+t1373233267
+s77300
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Landscape~ipad.png
+c0000000051D9E0730000000000008877
+t1373233267
+s34935
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051D9E0730000000000012B02
+t1373233267
+s76546
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Portrait~ipad.png
+c0000000051D9E07300000000000085E6
+t1373233267
+s34278
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default@2x~iphone.png
+c0000000051D9E0730000000000007323
+t1373233267
+s29475
+
+N/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default~iphone.png
+c0000000051D9E073000000000000289A
+t1373233267
+s10394
+
+N/Users/waldemir/Desktop/helloword/helloword/config.xml
+c0000000051D9E0730000000000001100
+t1373233267
+s4352
+
+N/Users/waldemir/Desktop/helloword/helloword/helloword-Prefix.pch
+c0000000051D9E07300000000000003C3
+t1373233267
+s963
+
+N/Users/waldemir/Desktop/helloword/helloword/main.m
+c0000000051D9E073000000000000045B
+t1373233267
+s1115
+
+N/var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth
+t2
+s0
+
+Nhelloword/helloword-Info.plist
+c0000000051D9E07300000000000009C9
+t1373233267
+s2505
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1ac2e92e188ab741^012feb2e188ab741^---0#1#0#--18"Check dependencies36"2123E266-C0CB-49D5-8943-447F9927E6B2-
+
+CCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o /Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394926129.207958
+e394926129.289938
+r1
+xCompileC
+xbuild/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o
+x/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/waldemir/Desktop/helloword/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m1b653531188ab741^86384a31188ab741^-657"/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/waldemir/Desktop/helloword/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-394926129#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-394926129#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/waldemir/Desktop/helloword/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m0000000000000000^79#24#79#24#2694#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m0000000000000000^3435"CompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o helloword/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/waldemir/Desktop/helloword    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-generated-files.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-own-target-headers.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-all-target-headers.hmap -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-project-headers.hmap -I/Users/waldemir/Desktop/helloword/build/include -I/Users/waldemir/Desktop/helloword/build/usr/local/lib/include -I/Users/waldemir/Desktop/helloword/build/UninstalledProducts/include -I/Users/waldemir/Desktop/helloword/build -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources/i386 -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources -F/Users/waldemir/Desktop/helloword/build -include /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch -MMD -MT dependencies -MF /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.dia -c /Users/waldemir/Desktop/helloword/helloword/Classes/AppDelegate.m -o /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/AppDelegate.o36"9658101B-ADCF-4E64-BCF9-92FB4E66CE4F-
+
+CCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394926129.207954
+e394926129.279674
+r1
+xCompileC
+xbuild/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o
+x/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.me4653531188ab741^85984731188ab741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m0000000000000000^3477"CompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o helloword/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/waldemir/Desktop/helloword    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-generated-files.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-own-target-headers.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-all-target-headers.hmap -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-project-headers.hmap -I/Users/waldemir/Desktop/helloword/build/include -I/Users/waldemir/Desktop/helloword/build/usr/local/lib/include -I/Users/waldemir/Desktop/helloword/build/UninstalledProducts/include -I/Users/waldemir/Desktop/helloword/build -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources/i386 -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources -F/Users/waldemir/Desktop/helloword/build -include /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch -MMD -MT dependencies -MF /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.dia -c /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.m -o /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/MainViewController.o36"A565F2B2-7EFD-43E8-90FD-26670F865660-
+
+CCompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o /Users/waldemir/Desktop/helloword/helloword/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394926129.207931
+e394926129.235384
+r1
+xCompileC
+xbuild/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o
+x/Users/waldemir/Desktop/helloword/helloword/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/waldemir/Desktop/helloword/helloword/main.mea583531188ab741^715a3c31188ab741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/waldemir/Desktop/helloword/helloword/main.m0000000000000000^3377"CompileC build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o helloword/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/waldemir/Desktop/helloword    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-generated-files.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-own-target-headers.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-all-target-headers.hmap -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-project-headers.hmap -I/Users/waldemir/Desktop/helloword/build/include -I/Users/waldemir/Desktop/helloword/build/usr/local/lib/include -I/Users/waldemir/Desktop/helloword/build/UninstalledProducts/include -I/Users/waldemir/Desktop/helloword/build -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources/i386 -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources -F/Users/waldemir/Desktop/helloword/build -include /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch -MMD -MT dependencies -MF /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.dia -c /Users/waldemir/Desktop/helloword/helloword/main.m -o /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/main.o36"B4A1A043-9B00-4EBD-BB6C-5C3EE9F2ECBA-
+
+CCompileXIB /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib
+s394926127.092356
+e394926128.900398
+r1
+xCompileXIB
+x/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib5ab9172f188ab741^6894e630188ab741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib0000000000000000^1026"CompileXIB helloword/Classes/MainViewController.xib    cd /Users/waldemir/Desktop/helloword    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/waldemir/Desktop/helloword/build/helloword.app/MainViewController.nib /Users/waldemir/Desktop/helloword/helloword/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"7ACAF85B-77EE-43B6-975F-FCBDBEF312DC-
+
+CCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/de.lproj/Localizable.strings helloword/Resources/de.lproj/Localizable.strings
+s394926127.097778
+e394926127.110950
+r1
+xCopyStringsFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app/de.lproj/Localizable.strings
+xhelloword/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy helloword/Resources/de.lproj/Localizable.strings2026192f188ab741^38671c2f188ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/waldemir/Desktop/helloword/helloword/Resources/de.lproj/Localizable.strings0000000000000000^697"CopyStringsFile build/helloword.app/de.lproj/Localizable.strings helloword/Resources/de.lproj/Localizable.strings    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/waldemir/Desktop/helloword/build/helloword.app/de.lproj -- helloword/Resources/de.lproj/Localizable.strings36"F1445353-812E-4EA5-B13A-4438A9261838-
+
+CCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/en.lproj/Localizable.strings helloword/Resources/en.lproj/Localizable.strings
+s394926127.090053
+e394926127.096551
+r1
+xCopyStringsFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app/en.lproj/Localizable.strings
+xhelloword/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy helloword/Resources/en.lproj/Localizable.strings7025172f188ab741^fab6182f188ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/waldemir/Desktop/helloword/helloword/Resources/en.lproj/Localizable.strings0000000000000000^697"CopyStringsFile build/helloword.app/en.lproj/Localizable.strings helloword/Resources/en.lproj/Localizable.strings    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/waldemir/Desktop/helloword/build/helloword.app/en.lproj -- helloword/Resources/en.lproj/Localizable.strings36"D45C6D04-9B48-4F4B-9023-2EA866264626-
+
+CCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/es.lproj/Localizable.strings helloword/Resources/es.lproj/Localizable.strings
+s394926127.091198
+e394926127.099915
+r1
+xCopyStringsFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app/es.lproj/Localizable.strings
+xhelloword/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy helloword/Resources/es.lproj/Localizable.strings9c6c172f188ab741^1894192f188ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/waldemir/Desktop/helloword/helloword/Resources/es.lproj/Localizable.strings0000000000000000^697"CopyStringsFile build/helloword.app/es.lproj/Localizable.strings helloword/Resources/es.lproj/Localizable.strings    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/waldemir/Desktop/helloword/build/helloword.app/es.lproj -- helloword/Resources/es.lproj/Localizable.strings36"DDB6A237-43F7-4179-8622-6E5A2F643947-
+
+CCopyStringsFile /Users/waldemir/Desktop/helloword/build/helloword.app/se.lproj/Localizable.strings helloword/Resources/se.lproj/Localizable.strings
+s394926127.097820
+e394926127.110723
+r1
+xCopyStringsFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app/se.lproj/Localizable.strings
+xhelloword/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy helloword/Resources/se.lproj/Localizable.strings8522192f188ab741^f3571c2f188ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/waldemir/Desktop/helloword/helloword/Resources/se.lproj/Localizable.strings0000000000000000^697"CopyStringsFile build/helloword.app/se.lproj/Localizable.strings helloword/Resources/se.lproj/Localizable.strings    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/waldemir/Desktop/helloword/build/helloword.app/se.lproj -- helloword/Resources/se.lproj/Localizable.strings36"12F45995-33B5-44E0-9EC8-5E3B89E75C52-
+
+CCpResource helloword/Resources/Capture.bundle build/helloword.app/Capture.bundle
+s394926127.088991
+e394926127.097458
+r1
+xCpResource
+xhelloword/Resources/Capture.bundle
+xbuild/helloword.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/helloword.app/Capture.bundle0edb162f188ab741^d0f2182f188ab741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Capture.bundle000000000080d041^694"CpResource helloword/Resources/Capture.bundle build/helloword.app/Capture.bundle    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/waldemir/Desktop/helloword/helloword/Resources/Capture.bundle /Users/waldemir/Desktop/helloword/build/helloword.app36"5A85DDBC-287A-4D29-BB2A-EAF66EB09B31-
+
+CCpResource helloword/Resources/icons/icon-72.png build/helloword.app/icon-72.png
+s394926127.085778
+e394926127.087835
+r1
+xCpResource
+xhelloword/Resources/icons/icon-72.png
+xbuild/helloword.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/helloword.app/icon-72.pngbf0c162f188ab741^af7c162f188ab741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/icon-72.png000000000080d041^697"CpResource helloword/Resources/icons/icon-72.png build/helloword.app/icon-72.png    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon-72.png /Users/waldemir/Desktop/helloword/build/helloword.app36"172DB0A5-C38B-49A4-8D3D-690ACA234F11-
+
+CCpResource helloword/Resources/icons/icon-72@2x.png build/helloword.app/icon-72@2x.png
+s394926127.114642
+e394926127.117798
+r1
+xCpResource
+xhelloword/Resources/icons/icon-72@2x.png
+xbuild/helloword.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/helloword.app/icon-72@2x.pngeb731d2f188ab741^02281e2f188ab741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/icon-72@2x.png000000000080d041^712"CpResource "helloword/Resources/icons/icon-72@2x.png" "build/helloword.app/icon-72@2x.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon-72@2x.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"B44E2DA7-081F-498F-A160-452D96429C3A-
+
+CCpResource helloword/Resources/icons/icon.png build/helloword.app/icon.png
+s394926127.085782
+e394926127.088912
+r1
+xCpResource
+xhelloword/Resources/icons/icon.png
+xbuild/helloword.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/helloword.app/icon.png840e162f188ab741^87c3162f188ab741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/icon.png000000000080d041^688"CpResource helloword/Resources/icons/icon.png build/helloword.app/icon.png    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon.png /Users/waldemir/Desktop/helloword/build/helloword.app36"6304641D-255B-4CC0-A8D3-173F9DBC6127-
+
+CCpResource helloword/Resources/icons/icon@2x.png build/helloword.app/icon@2x.png
+s394926127.085991
+e394926127.091188
+r1
+xCpResource
+xhelloword/Resources/icons/icon@2x.png
+xbuild/helloword.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/helloword.app/icon@2x.png2e1a162f188ab741^1958172f188ab741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/icon@2x.png000000000080d041^703"CpResource "helloword/Resources/icons/icon@2x.png" "build/helloword.app/icon@2x.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/icons/icon@2x.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"550853E8-726E-4252-B607-17FF091629AA-
+
+CCpResource helloword/Resources/splash/Default-568h@2x~iphone.png build/helloword.app/Default-568h@2x~iphone.png
+s394926127.114652
+e394926127.116668
+r1
+xCpResource
+xhelloword/Resources/splash/Default-568h@2x~iphone.png
+xbuild/helloword.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/helloword.app/Default-568h@2x~iphone.pngeb731d2f188ab741^e3dd1d2f188ab741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default-568h@2x~iphone.png000000000080d041^750"CpResource "helloword/Resources/splash/Default-568h@2x~iphone.png" "build/helloword.app/Default-568h@2x~iphone.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-568h@2x~iphone.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"96729398-4D7D-4D54-92BB-780CDEA90694-
+
+CCpResource helloword/Resources/splash/Default-Landscape@2x~ipad.png build/helloword.app/Default-Landscape@2x~ipad.png
+s394926127.101084
+e394926127.103218
+r1
+xCpResource
+xhelloword/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/helloword.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/helloword.app/Default-Landscape@2x~ipad.pngfdfa192f188ab741^c26c1a2f188ab741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Landscape@2x~ipad.png000000000080d041^759"CpResource "helloword/Resources/splash/Default-Landscape@2x~ipad.png" "build/helloword.app/Default-Landscape@2x~ipad.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Landscape@2x~ipad.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"15547066-CA55-4C20-BE0B-25546BD97F75-
+
+CCpResource helloword/Resources/splash/Default-Landscape~ipad.png build/helloword.app/Default-Landscape~ipad.png
+s394926127.104410
+e394926127.106435
+r1
+xCpResource
+xhelloword/Resources/splash/Default-Landscape~ipad.png
+xbuild/helloword.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/helloword.app/Default-Landscape~ipad.png3ed01a2f188ab741^853f1b2f188ab741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Landscape~ipad.png000000000080d041^750"CpResource "helloword/Resources/splash/Default-Landscape~ipad.png" "build/helloword.app/Default-Landscape~ipad.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Landscape~ipad.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"2693F061-1277-4CC1-A3D6-B2B9E0404F6F-
+
+CCpResource helloword/Resources/splash/Default-Portrait@2x~ipad.png build/helloword.app/Default-Portrait@2x~ipad.png
+s394926127.107630
+e394926127.109982
+r1
+xCpResource
+xhelloword/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/helloword.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/helloword.app/Default-Portrait@2x~ipad.png889f1b2f188ab741^bb2a1c2f188ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Portrait@2x~ipad.png000000000080d041^756"CpResource "helloword/Resources/splash/Default-Portrait@2x~ipad.png" "build/helloword.app/Default-Portrait@2x~ipad.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Portrait@2x~ipad.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"773F25D0-D31B-4583-8131-C54DBC7CB34A-
+
+CCpResource helloword/Resources/splash/Default-Portrait~ipad.png build/helloword.app/Default-Portrait~ipad.png
+s394926127.111135
+e394926127.114477
+r1
+xCpResource
+xhelloword/Resources/splash/Default-Portrait~ipad.png
+xbuild/helloword.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/helloword.app/Default-Portrait~ipad.png92941c2f188ab741^7f4e1d2f188ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default-Portrait~ipad.png000000000080d041^747"CpResource "helloword/Resources/splash/Default-Portrait~ipad.png" "build/helloword.app/Default-Portrait~ipad.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default-Portrait~ipad.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"5AF6788C-9278-47D1-A880-8621A5CE4806-
+
+CCpResource helloword/Resources/splash/Default@2x~iphone.png build/helloword.app/Default@2x~iphone.png
+s394926127.111150
+e394926127.113484
+r1
+xCpResource
+xhelloword/Resources/splash/Default@2x~iphone.png
+xbuild/helloword.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/helloword.app/Default@2x~iphone.pngd28d1c2f188ab741^8d0d1d2f188ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default@2x~iphone.png000000000080d041^735"CpResource "helloword/Resources/splash/Default@2x~iphone.png" "build/helloword.app/Default@2x~iphone.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default@2x~iphone.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"7F717EB4-A754-414C-A0BD-93D527C6F578-
+
+CCpResource helloword/Resources/splash/Default~iphone.png build/helloword.app/Default~iphone.png
+s394926127.111724
+e394926127.115524
+r1
+xCpResource
+xhelloword/Resources/splash/Default~iphone.png
+xbuild/helloword.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/helloword.app/Default~iphone.pnga2b31c2f188ab741^1d931d2f188ab741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/Default~iphone.png000000000080d041^726"CpResource "helloword/Resources/splash/Default~iphone.png" "build/helloword.app/Default~iphone.png"    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/waldemir/Desktop/helloword/helloword/Resources/splash/Default~iphone.png" /Users/waldemir/Desktop/helloword/build/helloword.app36"CD1427FC-BD83-4961-95B4-47F99C7053AF-
+
+CCpResource helloword/config.xml build/helloword.app/config.xml
+s394926127.085762
+e394926127.090057
+r1
+xCpResource
+xhelloword/config.xml
+xbuild/helloword.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/helloword.app/config.xml630e162f188ab741^0b0e172f188ab741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app/config.xml000000000080d041^662"CpResource helloword/config.xml build/helloword.app/config.xml    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/waldemir/Desktop/helloword/helloword/config.xml /Users/waldemir/Desktop/helloword/build/helloword.app36"D903D775-44B5-4904-9DED-118ACDD4E007-
+
+CGenerateDSYMFile /Users/waldemir/Desktop/helloword/build/helloword.app.dSYM /Users/waldemir/Desktop/helloword/build/helloword.app/helloword
+s394926129.878463
+e394926130.005727
+r1
+xGenerateDSYMFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app.dSYM
+x/Users/waldemir/Desktop/helloword/build/helloword.app/helloword
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Generate /Users/waldemir/Desktop/helloword/build/helloword.app.dSYM23f7e031188ab741^ee760132188ab741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/waldemir/Desktop/helloword/build/helloword.app.dSYM000000000080d041^676"GenerateDSYMFile build/helloword.app.dSYM build/helloword.app/helloword    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/waldemir/Desktop/helloword/build/helloword.app/helloword -o /Users/waldemir/Desktop/helloword/build/helloword.app.dSYM36"DB723773-2681-4C5F-871B-62E68C957FC1-
+
+CLd /Users/waldemir/Desktop/helloword/build/helloword.app/helloword normal i386
+s394926129.297041
+e394926129.871418
+r1
+xLd
+x/Users/waldemir/Desktop/helloword/build/helloword.app/helloword
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Link /Users/waldemir/Desktop/helloword/build/helloword.app/helloword31274c31188ab741^ec14df31188ab741^---0#0#0#--1794"Ld build/helloword.app/helloword normal i386    cd /Users/waldemir/Desktop/helloword    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/waldemir/Desktop/helloword/build -F/Users/waldemir/Desktop/helloword/build -filelist /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/helloword.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/waldemir/Desktop/helloword/build/libCordova.a -ObjC -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/waldemir/Desktop/helloword/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/waldemir/Desktop/helloword/build/helloword.app/helloword36"C5B07A38-CD79-418B-BE92-3E84E4CD05A3-
+
+CPhaseScriptExecution "Copy www directory" /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh
+s394926126.936611
+e394926127.077488
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.115s
+ouser	0m0.041s
+osys	0m0.049s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'e771f02e188ab741^0ad7132f188ab741^-42"real	0m0.115suser	0m0.041ssys	0m0.049s3(21%IDEActivityLogMessage2@14"real	0m0.115s-394926127#1#14#-0#-----2@14"user	0m0.041s-394926127#15#14#-0#-----2@13"sys	0m0.049s-394926127#29#13#-0#-----0#0#0#--20163"PhaseScriptExecution "Copy www directory" build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh    cd /Users/waldemir/Desktop/helloword    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER waldemir    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/waldemir/Desktop/helloword/build    setenv BUILD_ROOT /Users/waldemir/Desktop/helloword/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/waldemir/Desktop/helloword/build    setenv CACHE_ROOT /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/waldemir/Desktop/helloword/build/helloword.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/waldemir/Desktop/helloword/build    setenv CONFIGURATION_TEMP_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH helloword.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/waldemir/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH helloword.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/helloword.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME helloword.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/waldemir/Desktop/helloword/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH helloword.app/Executables    setenv EXECUTABLE_FOLDER_PATH helloword.app    setenv EXECUTABLE_NAME helloword    setenv EXECUTABLE_PATH helloword.app/helloword    setenv FILE_LIST /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH helloword.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/waldemir/Desktop/helloword/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME helloword.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER helloword/helloword-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/waldemir/Desktop/helloword/build/include\" \"/Users/waldemir/Desktop/helloword/build/usr/local/lib/include\" \"/Users/waldemir/Desktop/helloword/build/UninstalledProducts/include\" \"/Users/waldemir/Desktop/helloword/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE helloword/helloword-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH helloword.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH helloword.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/helloword.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER waldemir    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/helloword.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH helloword.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/waldemir/Desktop/helloword/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal/i386/helloword.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH helloword.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Objects-normal    setenv OBJROOT /Users/waldemir/Desktop/helloword/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/waldemir/Desktop/helloword/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH helloword.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/PkgInfo    setenv PKGINFO_PATH helloword.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH helloword.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH helloword.app/PrivateHeaders    setenv PRODUCT_NAME helloword    setenv PRODUCT_SETTINGS_PATH /Users/waldemir/Desktop/helloword/helloword/helloword-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT helloword    setenv PROJECT_DERIVED_FILE_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/DerivedSources    setenv PROJECT_DIR /Users/waldemir/Desktop/helloword    setenv PROJECT_FILE_PATH /Users/waldemir/Desktop/helloword/helloword.xcodeproj    setenv PROJECT_NAME helloword    setenv PROJECT_TEMP_DIR /Users/waldemir/Desktop/helloword/build/helloword.build    setenv PROJECT_TEMP_ROOT /Users/waldemir/Desktop/helloword/build    setenv PUBLIC_HEADERS_FOLDER_PATH helloword.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/waldemir/Desktop/helloword/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH helloword.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/waldemir/Desktop/helloword/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH helloword.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH helloword.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/waldemir/Desktop/helloword    setenv SRCROOT /Users/waldemir/Desktop/helloword    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/waldemir/Desktop/helloword/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME helloword    setenv TARGET_BUILD_DIR /Users/waldemir/Desktop/helloword/build    setenv TARGET_NAME helloword    setenv TARGET_TEMP_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build    setenv TEMP_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build    setenv TEMP_FILES_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build    setenv TEMP_FILE_DIR /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build    setenv TEMP_ROOT /Users/waldemir/Desktop/helloword/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH helloword.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER waldemir    setenv USER_APPS_DIR /Users/waldemir/Applications    setenv USER_LIBRARY_DIR /Users/waldemir/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH helloword.app/version.plist    setenv VERSION_INFO_BUILDER waldemir    setenv VERSION_INFO_FILE helloword_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:helloword  PROJECT:helloword-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME helloword.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/Script-304B58A110DAC018002A0835.sh36"A91B3934-0350-4148-9172-9D7E0E93D64C-
+
+CProcessInfoPlistFile /Users/waldemir/Desktop/helloword/build/helloword.app/Info.plist helloword/helloword-Info.plist
+s394926126.924824
+e394926126.928212
+r1
+xProcessInfoPlistFile
+x/Users/waldemir/Desktop/helloword/build/helloword.app/Info.plist
+xhelloword/helloword-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process helloword/helloword-Info.plist7bd7ec2e188ab741^2c9fed2e188ab741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/waldemir/Desktop/helloword/helloword/helloword-Info.plist0000000000000000^725"ProcessInfoPlistFile build/helloword.app/Info.plist helloword/helloword-Info.plist    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility helloword/helloword-Info.plist -genpkginfo /Users/waldemir/Desktop/helloword/build/helloword.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/waldemir/Desktop/helloword/build/helloword.app/Info.plist36"CC1FFD3E-F731-40DC-AC8C-58A1B8CC5477-
+
+CProcessPCH /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth helloword/helloword-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394926128.908526
+e394926129.201420
+r1
+xProcessPCH
+x/var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth
+xhelloword/helloword-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile helloword/helloword-Prefix.pch5bb4e830188ab741^fb903331188ab741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/waldemir/Desktop/helloword/helloword/helloword-Prefix.pch0000000000000000^3450"ProcessPCH /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth helloword/helloword-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/waldemir/Desktop/helloword    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-generated-files.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-own-target-headers.hmap -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-all-target-headers.hmap -iquote /Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/helloword-project-headers.hmap -I/Users/waldemir/Desktop/helloword/build/include -I/Users/waldemir/Desktop/helloword/build/usr/local/lib/include -I/Users/waldemir/Desktop/helloword/build/UninstalledProducts/include -I/Users/waldemir/Desktop/helloword/build -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources/i386 -I/Users/waldemir/Desktop/helloword/build/helloword.build/Debug-iphonesimulator/helloword.build/DerivedSources -F/Users/waldemir/Desktop/helloword/build --serialize-diagnostics /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.dia -c /Users/waldemir/Desktop/helloword/helloword/helloword-Prefix.pch -o /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/pz/7ddfr0l94q78y15wg5xbl2b00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloword-Prefix-bcotcqjvdlvahwcxsglpvyibefuu/helloword-Prefix.pch.d36"5C2BC1C2-B931-4394-A5E6-D4B1EF992E63-
+
+CTouch /Users/waldemir/Desktop/helloword/build/helloword.app
+s394926130.014031
+e394926130.036386
+r1
+xTouch
+x/Users/waldemir/Desktop/helloword/build/helloword.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Touch /Users/waldemir/Desktop/helloword/build/helloword.appb4ac0332188ab741^44500932188ab741^---0#0#0#--480"Touch build/helloword.app    cd /Users/waldemir/Desktop/helloword    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/waldemir/Desktop/helloword/build/helloword.app36"F3753EC7-C6A2-49E8-9E5E-4B4BC67330E5-
+

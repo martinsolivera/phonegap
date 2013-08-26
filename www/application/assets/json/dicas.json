@@ -1,0 +1,57 @@
+[
+	{
+		"id" : "5",
+		"categoria" : "6",
+		"titulo" : "CONSTRUÇÃO CONTEÚDO",
+		"texto" : " <p class=\"p1\"> Existem diversas variações de argamassa que devem ser observadas e questionadas na hora da compra. Porém existem algumas regras básicas que devem ser seguidas: Para instalação de porcelanatos use argamassa específica para porcelanatos, pois esses possuem flexibilidade específica para este tipo de piso. Para pisos e revestimentos externos não deixe de usar argamassa externa, sua flexibilidade é maior e evita o descolamento das peças. Para piso sobre piso é indispensável o uso da argamassa piso sobre piso, que garante a aderência do novo revestimento sobre o anterior. Independente de qualquer outra especificação informe o vendedor sobre o seu projeto para que você possa adquirir o produto adequado.</p>",
+		"imagem" : "",
+		"galeria" : []
+	},
+
+	{
+		"id" : "15",
+		"categoria" : "7",
+		"titulo" : "1",
+		"texto" : "hehehe",
+		"imagem" : "",
+		"galeria" : [
+			"http://www.themediafire.com/wp-content/uploads/2013/04/C_Sharp.png",
+			"http://www.tomasvasquez.com.br/blog/wp-content/uploads/2009/09/C-To-Go-300x3001.png",
+			"http://www.its.org.eg/~its4trai/images/da03237519de2499b9736a49769b3956.png"
+		]
+	},
+
+	{
+		"id" : "13",
+		"categoria" : "7",
+		"titulo" : "2",
+		"texto" : "xxxxx",
+		"imagem" : "",
+		"galeria" : []
+	},
+
+	{
+		"id" : "12",
+		"categoria" : "7",
+		"titulo" : "3",
+		"texto" : "hehehe",
+		"imagem" : "",
+		"galeria" : [
+			"http://www.themediafire.com/wp-content/uploads/2013/04/C_Sharp.png",
+			"http://www.its.org.eg/~its4trai/images/da03237519de2499b9736a49769b3956.png"
+		]
+	},
+
+	{
+		"id" : "11",
+		"categoria" : "7",
+		"titulo" : "4",
+		"texto" : "hehehe",
+		"imagem" : "",
+		"galeria" : [
+			"http://www.tomasvasquez.com.br/blog/wp-content/uploads/2009/09/C-To-Go-300x3001.png",
+			"http://www.its.org.eg/~its4trai/images/da03237519de2499b9736a49769b3956.png",
+			"http://www.themediafire.com/wp-content/uploads/2013/04/C_Sharp.png"
+		]
+	}
+]

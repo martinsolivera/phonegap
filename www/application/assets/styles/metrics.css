@@ -1,0 +1,106 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - METRICS
+ */
+
+/* Metrics */
+#metrics 											{ position: relative; background: url( '../images/app/background.jpg' ); }
+#metrics .back button 								{ position: relative; float: left; width: 16px; height: 46px; background: #f49a2c; overflow: hidden; }
+#metrics .back button img 							{ position: absolute; top: 0; right: 0; }
+#metrics .page 										{ height: 100%; background: #ffffff; }
+#metrics .page .content .heading 					{ position: relative; font-family: 'signikaregular'; color: #f49a2c; }
+#metrics .page .content .heading .title 			{ display: table; margin: 0 auto; text-transform: uppercase; }
+#metrics .page .content .heading .title img 		{ float: left; }
+#metrics .page .content .nav 						{ position: relative; }
+#metrics .page .content .nav .tip 					{ text-align: center; font-family: 'signikaregular'; color: #7f7f7f; }
+#metrics .page .content .nav .menu 					{ margin: 0 auto; }
+#metrics .page .content .nav .menu .nav-tile span 	{ font-family: 'signikaregular'; }
+#metrics .subnav 									{ display: none; position: absolute; top: 0; width: 100%; height: 100%; z-index: 2; }
+#metrics .subnav .content 							{ position: relative; width: 100%; height: 100%; overflow: hidden; }
+#metrics .subnav .content .background 				{ position: absolute; width: 100%; height: 100%; background: #f49a2c; opacity: .95; }
+#metrics .subnav .content .nav 						{ position: relative; top: 50%; margin: 0 auto; }
+#metrics .subnav .content .nav .tip 				{ text-align: center; font-family: 'signikaregular'; color: #ffffff; }
+#metrics .subnav .content .nav .menu .sub-tile span { font-family: 'signikaregular'; }
+
+#metrics .tool	 									{ position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; background: #ffffff; }
+#metrics .tool .image 								{ position: relative; }
+#metrics .tool .buttons 							{ position: absolute; z-index: 1; width: 53.5px; height: 100%; left: 100%; margin-left: -53.5px; }
+#metrics .tool .buttons .actions 					{ position: absolute; bottom: 0px; right: 5px; }
+#metrics .tool .buttons .actions .rules				{ position: absolute; bottom: 44px; right: 40px; }
+#metrics .tool .buttons .actions .text				{ position: absolute; bottom: 70px; right: -5px; }
+#metrics .tool .buttons .actions .save 				{ position: absolute; bottom: -4px; right: 59px; }
+
+#metrics .tool .savebox								{ position: absolute; width: 100%; height: 100%; overflow: hidden; z-index: 4; display: none; }
+#metrics .tool .savebox	.background					{ position: absolute; width: 100%; height: 100%; background: #f49a2c; opacity: .95; }
+#metrics .tool .savebox .nav 						{ position: relative; margin-top: 110px; }
+#metrics .tool .savebox .nav .tip 					{ text-align: center; font-family: 'signikaregular'; color: #FFF; }
+#metrics .tool .savebox .nav .menu 					{ margin: 0 auto; }
+#metrics .tool .savebox .nav .menu .nav-tile span 	{ font-family: 'signikaregular'; }
+
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+
+    /* Metrics */
+    #metrics .content .heading 							{ font-size: 15px; }
+    #metrics .page .content .heading 					{ margin: 11px 0; }
+    #metrics .page .content .heading .title 			{ width: 150px; }
+    #metrics .page .content .heading .title img 		{ margin-right: 8px; height: 20px; }
+    #metrics .page .content .heading .title p 			{ padding-top: 4px; }
+    #metrics .page .content .divisor 					{ height: 1px; }
+    #metrics .page .content .nav .tip 					{ padding: 19px 0; font-size: 11px; }
+    #metrics .page .content .nav .menu 					{ width: 143px; }
+    #metrics .page .content .nav .menu .nav-tile 		{ width: 143px; height: 140px; }
+    #metrics .page .content .nav .menu .nav-tile img 	{ margin-bottom: 9px; }
+    #metrics .page .content .nav .menu .nav-tile .cam 	{ height: 28px; }
+    #metrics .page .content .nav .menu .nav-tile span 	{ font-size: 11px; }
+    #metrics .subnav .content .nav 						{ margin-top: -85px; width: 288px; }
+    #metrics .subnav .content .nav .tip 				{ padding: 0 0 26px 0; font-size: 15px; }
+    #metrics .subnav .content .nav .menu 				{ width: 288px; }
+    #metrics .subnav .content .nav .menu .sub-tile 		{ width: 143px; height: 143px; }
+    #metrics .subnav .content .nav .menu .sub-tile span { font-size: 15px; }
+
+    #metrics .tool .savebox .nav .tip 					{ padding: 19px 0; font-size: 15px; }
+    #metrics .tool .savebox .nav .menu 					{ width: 143px; }
+    #metrics .tool .savebox .nav .menu .sub-tile 		{ width: 143px; height: 140px; }
+    #metrics .tool .savebox .nav .menu .sub-tile img 	{ margin-bottom: 9px; }
+    #metrics .tool .savebox .nav .menu .sub-tile .disk 	{ height: 31px; }
+    #metrics .tool .savebox .nav .menu .sub-tile span 	{ font-size: 15px; }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+    /* Metrics */
+    #metrics .content .heading 							{ font-size: 30px; }
+    #metrics .page .content .heading 					{ margin: 22px 0; }
+    #metrics .page .content .heading .title 			{ width: 300px; }
+    #metrics .page .content .heading .title img 		{ margin-right: 17px; height: 40px; }
+    #metrics .page .content .heading .title p 			{ padding-top: 8px; }
+    #metrics .page .content .divisor 					{ height: 2px; }
+    #metrics .page .content .nav .tip 					{ padding: 38px 0; font-size: 22px; }
+    #metrics .page .content .nav .menu 					{ width: 286px; }
+    #metrics .page .content .nav .menu .nav-tile 		{ width: 286px; height: 280px; }
+    #metrics .page .content .nav .menu .nav-tile img 	{ margin-bottom: 18px; }
+    #metrics .page .content .nav .menu .nav-tile .cam 	{ height: 56px; }
+    #metrics .page .content .nav .menu .nav-tile span 	{ font-size: 22px; }
+    #metrics .subnav .content .nav 						{ margin-top: -180px; width: 576px; }
+    #metrics .subnav .content .nav .tip 				{ padding: 0 0 43px 0; font-size: 30px; }
+    #metrics .subnav .content .nav .menu 				{ width: 576px; }
+    #metrics .subnav .content .nav .menu .sub-tile 		{ width: 287px; height: 287px; }
+    #metrics .subnav .content .nav .menu .sub-tile span { font-size: 30px; }
+
+}
+
+

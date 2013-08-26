@@ -1,0 +1,80 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - ASSISTANCE
+ */
+
+
+/* Assistance */
+#assistance { position: relative; }
+#assistance .search { position: relative; width: 100%; height: 45px; overflow: hidden; }
+#assistance .page { width: 100%; height: 100%; overflow-y: auto; }
+#assistance .page .content .heading { position: relative; font-family: 'signikaregular'; color: #96989a; background: #ffffff; -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.34); box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.34); }
+#assistance .page .content .heading .title { display: table; margin: 0 auto; text-transform: uppercase; }
+#assistance .page .content .heading .title img { float: left; }
+#assistance .page .content .heading .subtitle { font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#assistance .page .content .nav { position: relative; height: 80px; }
+#assistance .page .content .nav #slider { position: relative; margin-top: 23px; width: 100%; height: 56px; overflow: hidden; }
+#assistance .page .content .nav #slider #letters { position: relative; }
+#assistance .page .content .nav #slider #letters div { position: absolute; width: 57px; height: 56px; background: url( '../images/assistance/letter_circle.png' ) no-repeat; overflow: hidden; }
+#assistance .page .content .nav #slider #letters div p { position: absolute; top: 50%; left: 50%; margin: -22px 0 0 -15px; width: 30px; height: 48px; font-family: 'signikaregular'; font-size: 33px; color: #96989a; text-align: center; }
+#assistance .page .content .list { float: left; width: 100%; min-height: 250px; background: #ffffff; -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.34); box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.34); }
+#assistance .page .content .list .places { display: table; margin: 0 auto; }
+#assistance .page .content .list .places .place { float: left; margin-right: 1px; }
+#assistance .page .content .list .places .place .logo {}
+#assistance .page .content .list .places .place .info { background: #96989a; }
+#assistance .page .content .list .places .place .info p { font-family: 'signikaregular'; color: #ffffff; text-align: center; overflow: hidden; }
+
+
+
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+    /* Assistance */
+    #assistance .content .heading                               { font-size: 15px; }
+    #assistance .page .content .heading                         { padding: 17px 0 16px 0; }
+    #assistance .page .content .heading .title                  { width: 195px; }
+    #assistance .page .content .heading .title img              { margin-right: 8px; height: 17px; }
+    #assistance .page .content .heading .title p                { padding-top: 1px; }
+    #assistance .page .content .heading .divisor                { margin-top: 15px; height: 1px; }
+    #assistance .page .content .heading .subtitle               { margin-top: 20px; font-size: 11px; }
+    #assistance .page .content .list .places                    { margin-bottom: 15px; width: 288px; }
+    #assistance .page .content .list .places .place             { width: 143px; }
+    #assistance .page .content .list .places .place .logo       { padding: 15px 5px; }
+    #assistance .page .content .list .places .place .logo img   { height: 108px; }
+    #assistance .page .content .list .places .place .info       { padding: 15px; }
+    #assistance .page .content .list .places .place .info p     { width: 113px; font-size: 15px; }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+
+    /* Assistance */
+    #assistance .content .heading                               { font-size: 21px; }
+    #assistance .page .content .heading                         { padding: 35px 0 33px 0; }
+    #assistance .page .content .heading .title                  { width: 255px; }
+    #assistance .page .content .heading .title img              { margin-right: 17px; height: 28px; }
+    #assistance .page .content .heading .title p                { padding-top: 2px; }
+    #assistance .page .content .heading .divisor                { margin-top: 20px; height: 2px; }
+    #assistance .page .content .heading .subtitle               { margin-top: 39px; font-size: 18px; }
+    #assistance .page .content .list .places                    { margin-bottom: 30px; width: 574px; }
+    #assistance .page .content .list .places .place             { width: 286px; }
+    #assistance .page .content .list .places .place .logo       { padding: 30px 10px; }
+    #assistance .page .content .list .places .place .logo img   { height: 217px; }
+    #assistance .page .content .list .places .place .info       { padding: 30px; }
+    #assistance .page .content .list .places .place .info p     { width: 226px; font-size: 18px; }
+
+}
+
+

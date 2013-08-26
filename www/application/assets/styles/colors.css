@@ -1,0 +1,314 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - COLORS
+ */
+
+/* Colors */
+#colors 												            { position: relative; background: url( '../images/app/background.jpg' ); }
+#colors .back button 									            { position: relative; float: left; width: 16px; height: 46px; background: #006a33; overflow: hidden; }
+#colors .back button img 								            { position: absolute; top: 0; right: 0; }
+#colors .page 											            { height: 100%; background: #ffffff; }
+#colors .page .content .heading 						            { position: relative; font-family: 'signikaregular'; color: #006a33; }
+#colors .page .content .heading .title 					            { display: table; margin: 0 auto; text-transform: uppercase; }
+#colors .page .content .heading .title img 				            { float: left; }
+#colors .page .content .nav 							            { position: relative; }
+#colors .page .content .nav .tip 						            { text-align: center; font-family: 'signikaregular'; color: #7f7f7f; }
+#colors .page .content .nav .menu 						            { margin: 0 auto; }
+#colors .page .content .nav .menu .nav-tile span 		            { font-family: 'signikaregular'; }
+#colors .page .content .advertise 						            { position: absolute; width: 100%; }
+#colors .subnav 										            { display: block; position: absolute; top: 0; width: 100%; height: 100%; z-index: 2; }
+#colors .subnav .content 								            { position: relative; width: 100%; height: 100%; overflow: hidden; display: none; }
+#colors .subnav .content .background 					            { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .subnav .content .nav 							            { position: relative; top: 50%; margin: 0 auto; }
+#colors .subnav .content .nav .tip 						            { text-align: center; font-family: 'signikaregular'; color: #ffffff; }
+#colors .subnav .content .nav .menu .sub-tile span 		            { font-family: 'signikaregular'; }
+
+#colors .subnav .contentImages 							            { position: absolute; width: 100%; height: 100%; top: 0px; display: block; }
+#colors .subnav .contentImages .background 				            { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .subnav .contentImages .top                                 { position: relative; width: 287px; height: 48px; display: table; margin: 0 auto; }
+#colors .subnav .contentImages .top .button                         { position: absolute; width: 80px; height: 48px; display: block; z-index: 1; }
+#colors .subnav .contentImages .top .button img                     { position: relative; float: left; top: 50%; left: 0; margin-top: -6px; }
+#colors .subnav .contentImages .top .title                          { position: relative; height: 48px; display: table-cell; left; font-family: 'signikaregular'; text-align: center; color: #FFF; font-size: 15px; vertical-align: middle; }
+#colors .subnav .contentImages .images                              { position: relative; width: 287px; height: 387px; margin: 0 auto; }
+#colors .subnav .contentImages .images .button                      { position: absolute; display: none; top: 50%; left: 50%; margin-left: -50px; margin-top: -50px; z-index: 2; }
+#colors .subnav .contentImages .pagination                          { position: relative; display: table; margin: 10px auto; }
+
+#colors .subnav .contentMyRooms                                     { position: absolute; width: 100%; height: 100%; top: 0px; display: none; }
+#colors .subnav .contentMyRooms .background                         { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .subnav .contentMyRooms .heading                            { position: relative; width: 100%; margin-top: 60px; font-family: 'signikaregular'; color: #FFF; }
+#colors .subnav .contentMyRooms .heading .title                     { display: table; margin: 0 auto; text-transform: uppercase; }
+#colors .subnav .contentMyRooms .heading .title img                 { float: left; margin-right: 10px; }
+#colors .subnav .contentMyRooms .nav                                { position: relative; }
+#colors .subnav .contentMyRooms .nav .tip                           { text-align: center; font-family: 'signikaregular'; color: #FFF; }
+#colors .subnav .contentMyRooms .nav .menu                          { margin: 0 auto; }
+#colors .subnav .contentMyRooms .nav .menu .sub-tile span           { font-family: 'signikaregular'; }
+
+#colors .subnav .contentImagesMyRooms                               { position: absolute; width: 100%; height: 100%; top: 0px; display: block; }
+#colors .subnav .contentImagesMyRooms .background                   { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .subnav .contentImagesMyRooms .top                          { position: relative; width: 287px; height: 48px; display: table; margin: 0 auto; }
+#colors .subnav .contentImagesMyRooms .top .button                  { position: absolute; width: 80px; height: 48px; display: block; z-index: 1; }
+#colors .subnav .contentImagesMyRooms .top .button img              { position: relative; float: left; top: 50%; left: 0; margin-top: -6px; }
+#colors .subnav .contentImagesMyRooms .top .title                   { position: relative; height: 48px; display: table-cell; left; font-family: 'signikaregular'; text-align: center; color: #FFF; font-size: 15px; vertical-align: middle; }
+#colors .subnav .contentImagesMyRooms .nav                          { position: relative; }
+#colors .subnav .contentImagesMyRooms .nav .menu                    { margin: 0 auto; }
+#colors .subnav .contentImagesMyRooms .nav .menu .sub-tile span     { font-family: 'signikaregular'; }
+
+
+#colors .tool 											         { position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; background: #ffffff; display: none; }
+
+#colors .subnav .contentImages .swiper-container, #colors .subnav .contentImages .swiper-slide {
+  width: 287px;
+  height: 367px;
+}
+
+#colors .subnav .contentImages .swiper-pagination-switch {
+    /* Stylize pagination button: */    
+    display: block; float: left; margin: 0 4px; width: 8px; height: 8px; border-radius: 8px; background: #ffffff;
+}
+#colors .subnav .contentImages .swiper-active-switch {
+    /* Specific active button style: */ 
+    opacity: .5;
+}
+#colors .subnav .contentImages .swiper-visible-switch {
+    /* Specific visible button style: */    
+    opacity: .5;
+}
+
+#colors .tool .image                                            { position: relative; }
+#colors .tool .buttons                                          { position: absolute; z-index: 1; width: 53.5px; height: 100%; left: 100%; margin-left: -53.5px; }
+#colors .tool .buttons .actions                                 { position: absolute; bottom: 10px; right: 5px; }
+#colors .tool .buttons .actions .reset                          { position: absolute; bottom: 44px; right: 40px; }
+#colors .tool .buttons .actions .colors                         { position: absolute; bottom: 70px; right: -5px; }
+#colors .tool .buttons .actions .colors .pointColor             { position: absolute; font-size: 124px; color: #000; line-height: 78px; left: 13px; z-index: -1; opacity: 0; }
+#colors .tool .buttons .actions .save                           { position: absolute; bottom: -4px; right: 59px; }
+
+#colors .myRoomsGalery                                          { position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; background: #ffffff; display: none; }
+#colors .myRoomsGalery .image                                   { position: relative; }
+#colors .myRoomsGalery .buttons                                 { position: absolute; z-index: 3; width: 53.5px; height: 100%; left: 100%; margin-left: -53.5px; }
+#colors .myRoomsGalery .buttons .info                           { position: absolute; bottom: 58px; }
+#colors .myRoomsGalery .buttons .info .out                      { position: absolute; display: none; }
+#colors .myRoomsGalery .buttons .info .on                       { position: absolute; display: block; }
+#colors .myRoomsGalery .infos                                   { position: absolute; width: 100%; background: url( '../images/colors/myRooms_back.png' ) repeat-x;  z-index: 2; padding-bottom: 10px; bottom: -200px; display: table; }
+#colors .myRoomsGalery .infos .top                              { position: relative; width: 287px; display: table; margin: 50px auto 0px auto; text-align: left; }
+#colors .myRoomsGalery .infos .top .title                       { position: relative; width: 100%; font-family: 'signikabold'; color: #FFF; font-size: 20px; display: table; }
+#colors .myRoomsGalery .infos .top .date                        { position: relative; width: 100%; font-family: 'signikaregular'; color: #5d8a6f; font-size: 9px; display: table; }
+#colors .myRoomsGalery .infos .colors                           { position: relative; width: 287px; display: table; margin: 5 auto; }
+#colors .myRoomsGalery .infos .colors .text                     { position: relative; width: 100%; font-family: 'signikaregular'; color: #FFF; font-size: 10px; }
+#colors .myRoomsGalery .infos .colors .list                     { position: relative; width: 100%; display: table; margin-top: 6px; }
+#colors .myRoomsGalery .infos .colors .list .boxColor           { position: relative; width: 33px; height: 33px; background: blue; border: 1px solid #FFF; margin-right: 10px; }
+
+#colors .myRoomsGalery .infos .popColor                         { position: absolute; height: 48px; display: table; z-index: 10; top: -200px; left: -200px; }
+#colors .myRoomsGalery .infos .popColor .popbox                 { position: relative; width: 100%; height: 42px; background: #FFF; }
+#colors .myRoomsGalery .infos .popColor .popbox .text           { position: relative; text-align: center; font-family: 'signikaregular'; padding-right: 5px; padding-left: 5px; padding-top: 5px; float: left; }
+#colors .myRoomsGalery .infos .popColor .popbox .text .name     { position: relative; color: #2d3136; font-size: 11px; }
+#colors .myRoomsGalery .infos .popColor .popbox .text .code     { position: relative; color: #abacad; font-size: 11px; }
+#colors .myRoomsGalery .infos .popColor .ico                    { position: relative; width: 100%; height: 6px; text-align: center; }
+
+
+#colors .tool .colorbox                                         { position: absolute; width: 100%; height: 100%; overflow: hidden; z-index: 4; display: none; }
+#colors .tool .colorbox .background                             { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .tool .colorbox .nav                                    { position: relative; margin-top: 110px; }
+#colors .tool .colorbox .nav .tip                               { text-align: center; font-family: 'signikaregular'; color: #FFF; }
+#colors .tool .colorbox .nav .menu                              { margin: 0 auto; }
+#colors .tool .colorbox .nav .menu .nav-tile span               { font-family: 'signikaregular'; }
+
+#colors .tool .paletaColorBox                                   { position: absolute; width: 100%; height: 100%; overflow: hidden; z-index: 4; display: block; left: 100%; }
+#colors .tool .paletaColorBox .background                       { position: absolute; width: 100%; height: 100%; background: #2b3436; opacity: .95; }
+#colors .tool .paletaColorBox .top                              { position: relative; width: 287px; height: 48px; display: table; margin: 0 auto; }
+#colors .tool .paletaColorBox .top .button                      { position: relative; width: 17px; height: 48px; display: table-cell; vertical-align: middle; }
+#colors .tool .paletaColorBox .top .button img                  { margin-left: 0px; }
+#colors .tool .paletaColorBox .top .title                       { position: relative; height: 48px; display: table-cell; left; font-family: 'signikaregular'; text-align: center; color: #FFF; font-size: 15px; vertical-align: middle; }
+#colors .tool .paletaColorBox .colors                           { position: relative; width: 279px; height: 327px; margin: 0 auto; overflow: auto; border: 2px solid #FFF; }
+#colors .tool .paletaColorBox .colors .list                     { position: relative; width: 279px; display: table; }
+#colors .tool .paletaColorBox .colors .list .color              { position: relative; width: 31px; height: 31px; border: 1px solid #FFF; }
+#colors .tool .paletaColorBox .popColor                         { position: absolute; height: 48px; display: table; z-index: 10; top: -200px; left: -200px; }
+#colors .tool .paletaColorBox .popColor .popbox                 { position: relative; width: 100%; height: 42px; background: #FFF; }
+#colors .tool .paletaColorBox .popColor .popbox .color          { position: relative; width: 35px; height: 35px; background: blue; float: left; margin: 3px; }
+#colors .tool .paletaColorBox .popColor .popbox .text           { position: relative; text-align: center; font-family: 'signikaregular'; padding-right: 5px; padding-left: 5px; padding-top: 5px; float: left; }
+#colors .tool .paletaColorBox .popColor .popbox .text .name     { position: relative; color: #2d3136; font-size: 11px; }
+#colors .tool .paletaColorBox .popColor .popbox .text .code     { position: relative; color: #abacad; font-size: 11px; }
+#colors .tool .paletaColorBox .popColor .ico                    { position: relative; width: 100%; height: 6px; text-align: center; }
+#colors .tool .paletaColorBox .navigate                         { position: relative; width: 283px; height: 54px; margin: 0 auto; font-family: 'signikaregular'; color: #FFF; overflow: hidden; }
+#colors .tool .paletaColorBox .navigate .button                 { position: relative; width:  1113px; height: 54px; display: table; }
+#colors .tool .paletaColorBox .navigate .bt                     { position: relative; height: 54px; padding-left: 20px; padding-right: 20px; border-right: 2px solid #575a5e; border-top: 2px solid #575a5e; border-left: 2px solid #24272b; background: #2d3136; font-family: 'signikaregular'; color: #FFF; font-size: 15px; }
+
+#colors .tool .imageColorBox                                    { position: absolute; width: 100%; height: 100%; overflow: hidden; z-index: 4; display: block; left: 100%; }
+#colors .tool .imageColorBox .background                        { position: absolute; width: 100%; height: 100%; background: #2b3436; opacity: .95; }
+#colors .tool .imageColorBox .top                               { position: relative; width: 287px; height: 48px; display: table; margin: 0 auto; }
+#colors .tool .imageColorBox .top .button                       { position: relative; width: 17px; height: 48px; display: table-cell; vertical-align: middle; }
+#colors .tool .imageColorBox .top .button img                   { margin-left: 0px; }
+#colors .tool .imageColorBox .top .title                        { position: relative; height: 48px; display: table-cell; left; font-family: 'signikaregular'; text-align: center; color: #FFF; font-size: 15px; vertical-align: middle; }
+
+#colors .tool .savebox                                          { position: absolute; width: 100%; height: 100%; overflow: hidden; z-index: 4; display: none; }
+#colors .tool .savebox .background                              { position: absolute; width: 100%; height: 100%; background: #006a33; opacity: .95; }
+#colors .tool .savebox .nav                                     { position: relative; margin-top: 110px; width: 200px; left: 50%; margin-left: -100px; }
+#colors .tool .savebox .nav .tip                                { text-align: center; font-family: 'signikaregular'; color: #FFF; }
+#colors .tool .savebox .nav .menu                               { margin: 0 auto; }
+#colors .tool .savebox .nav .menu .nav-tile span                { font-family: 'signikaregular'; }
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+
+    /* Colors */
+    #colors .content .heading 									{ font-size: 15px; }
+    #colors .page .content .heading 							{ margin: 11px 0; }
+    #colors .page .content .heading .title 						{ width: 155px; }
+    #colors .page .content .heading .title img 					{ margin-right: 8px; height: 19px; }
+    #colors .page .content .heading .title p 					{ padding-top: 4px; }
+    #colors .page .content .divisor 							{ height: 1px; }
+    #colors .page .content .nav .tip 							{ padding: 19px 0; font-size: 11px; }
+    #colors .page .content .nav .menu 							{ width: 286px; }
+    #colors .page .content .nav .menu .nav-tile 				{ width: 143px; height: 140px; }
+    #colors .page .content .nav .menu .nav-tile img 			{ margin-bottom: 9px; }
+    #colors .page .content .nav .menu .nav-tile .colors 		{ height: 31px; }
+    #colors .page .content .nav .menu .nav-tile .enviroments 	{ height: 27px; }
+    #colors .page .content .nav .menu .nav-tile span 			{ font-size: 11px; }
+    #colors .page .content .advertise 							{ bottom: 10px; }
+    #colors .page .content .advertise img 						{ height: 43px; }
+    
+    #colors .subnav .content .nav 							    { margin-top: -154px; width: 288px; }
+    #colors .subnav .content .nav .tip 					        { padding: 0 0 26px 0; font-size: 15px; }
+    #colors .subnav .content .nav .menu 					    { width: 219px; }
+    #colors .subnav .content .nav .menu .sub-tile 			    { width: 219px; height: 49px; margin-bottom: 2px; }
+    #colors .subnav .content .nav .menu .sub-tile span 	        { font-size: 15px; }
+
+    #colors .tool .colorbox .nav                                 { width: 288px; margin: 110px auto; }
+    #colors .tool .colorbox .nav .tip                            { padding: 19px 0; font-size: 11px; }
+    #colors .tool .colorbox .nav .menu                           { width: 288px; }
+    #colors .tool .colorbox .nav .menu .sub-tile                 { width: 143px; height: 140px; }
+    #colors .tool .colorbox .nav .menu .sub-tile span            { font-size: 15px; }
+
+    #colors .tool .savebox .nav .tip                             { padding: 19px 0; font-size: 15px; }
+    #colors .tool .savebox .nav .menu                            { width: 143px; }
+    #colors .tool .savebox .nav .menu .sub-tile                  { width: 143px; height: 140px; }
+    #colors .tool .savebox .nav .menu .sub-tile img              { margin-bottom: 9px; }
+    #colors .tool .savebox .nav .menu .sub-tile .disk            { height: 31px; }
+    #colors .tool .savebox .nav .menu .sub-tile span             { font-size: 15px; }
+
+    #colors .subnav .contentMyRooms .nav                         { margin-top: 26px; width: 250px; left: 50%; margin-left: -125px; }
+    #colors .subnav .contentMyRooms .nav .tip                    { padding: 0 0 26px 0; font-size: 15px; }
+    #colors .subnav .contentMyRooms .nav .menu                   { width: 219px; }
+    #colors .subnav .contentMyRooms .nav .menu .sub-tile         { width: 219px; height: 49px; margin-bottom: 2px; }
+    #colors .subnav .contentMyRooms .nav .menu .sub-tile span    { font-size: 15px; }
+
+    #colors .subnav .contentImagesMyRooms .nav                         { margin-top: 26px; width: 250px; left: 50%; margin-left: -125px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu                   { width: 219px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu .sub-tile         { width: 219px; height: 49px; margin-bottom: 2px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu .sub-tile span    { font-size: 15px; }
+
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+    /* Colors */
+    #colors .content .heading 									{ font-size: 21px; }
+    #colors .page .content .heading 							{ margin: 22px 0; }
+    #colors .page .content .heading .title 						{ width: 310px; }
+    #colors .page .content .heading .title img 					{ margin-right: 17px; height: 30px; }
+    #colors .page .content .heading .title p 					{ padding-top: 1px; }
+    #colors .page .content .divisor 							{ height: 2px; }
+    #colors .page .content .nav .tip 							{ padding: 38px 0; font-size: 18px; }
+    #colors .page .content .nav .menu							{ width: 440px; }
+    #colors .page .content .nav .menu .nav-tile 				{ width: 220px; height: 220px; }
+    #colors .page .content .nav .menu .nav-tile img 			{ margin-bottom: 18px; }
+    #colors .page .content .nav .menu .nav-tile .colors 		{ height: 40px; }
+    #colors .page .content .nav .menu .nav-tile .enviroments 	{ height: 36px; }
+    #colors .page .content .nav .menu .nav-tile span 			{ font-size: 18px; }
+    #colors .page .content .advertise 							{ bottom: 128px; }
+    #colors .page .content .advertise img 						{ height: 64px; }
+    #colors .subnav .content .nav 							    { margin-top: -280px; width: 444px; }
+    #colors .subnav .content .nav .tip 					        { padding: 0 0 43px 0; font-size: 21px; }
+    #colors .subnav .content .nav .menu 					    { width: 444px; }
+    #colors .subnav .content .nav .menu .sub-tile 			    { width: 220px; height: 220px; margin-right: 2px; }
+    #colors .subnav .content .nav .menu .sub-tile span 	        { font-size: 21px; }
+
+    #colors .tool .colorbox .nav                                 { width: 440px; margin: 110px auto; }
+    
+    #colors .tool .colorbox .nav .tip                            { padding: 38px 0; font-size: 18px; }
+    #colors .tool .colorbox .nav .menu                           { width: 442px; }
+    #colors .tool .colorbox .nav .menu .sub-tile                 { width: 220px; height: 220px; }
+    #colors .tool .colorbox .nav .menu .sub-tile span            { font-size: 18px; }
+
+    #colors .subnav .contentImages .top                          { width: 700px; height: 90px; }
+    #colors .subnav .contentImages .images                       { width: 700px; height: 590px; }
+    #colors .subnav .contentImages .top .button                  { height: 90px; }
+    #colors .subnav .contentImages .top .button img              { height: 22px; margin-top: -11px; }
+    #colors .subnav .contentImages .top .title                   { font-size: 21px; }
+
+    #colors .subnav .contentImages .swiper-container, #colors .subnav .contentImages .swiper-slide { width: 700px; height: 590px; }
+
+    #colors .tool .paletaColorBox .top                           { height: 90px; width: 700px; }
+    #colors .tool .paletaColorBox .top .button                   { height: 90px; }
+    #colors .tool .paletaColorBox .top .button img               { height: 22px; }
+    #colors .tool .paletaColorBox .top .title                    { height: 90px; font-size: 21px; }
+
+    #colors .tool .paletaColorBox .colors                        { height: 530px; width: 696px; }
+    #colors .tool .paletaColorBox .colors .list                  { width: 696px; }
+    #colors .tool .paletaColorBox .colors .list .color           { height: 58px; width: 58px; }
+
+    #colors .tool .paletaColorBox .popColor                      { height: 74px; }
+    #colors .tool .paletaColorBox .popColor .popbox              { height: 65px; }
+    #colors .tool .paletaColorBox .popColor .popbox .color       { height: 58px; width: 58px; }
+    #colors .tool .paletaColorBox .popColor .popbox .text .name  { font-size: 16px; }
+    #colors .tool .paletaColorBox .popColor .popbox .text .code  { font-size: 18px; }
+
+    #colors .tool .paletaColorBox .navigate                      { width: 703px; }
+
+    #colors .tool .savebox .nav                                  { margin-top: 186px; width: 230px; margin-left: -115px; }
+    #colors .tool .savebox .nav .tip                             { font-size: 21px; }
+    #colors .tool .savebox .nav .menu                            { width: 220px; }
+    #colors .tool .savebox .nav .menu .sub-tile                  { width: 220px; height: 220px; }
+    #colors .tool .savebox .nav .menu .sub-tile span             { font-size: 21px; }
+    #colors .tool .savebox .nav .menu .sub-tile .disk            { height: 51px; }
+
+    #colors .tool .imageColorBox .top                            { width: 700px; height: 90px; }
+    #colors .tool .imageColorBox .top .button                    { height: 90px; }
+    #colors .tool .imageColorBox .top .button img                { height: 22px; }
+    #colors .tool .imageColorBox .top .title                     { height: 90px; font-size: 21px; }
+
+    #colors .subnav .contentMyRooms .heading                     { font-size: 21px; }
+    #colors .subnav .contentMyRooms .heading .title img          { height: 30px; }
+    #colors .subnav .contentMyRooms .nav                         { width: 700px; margin-left: -350px; margin-top: 46px; }
+    #colors .subnav .contentMyRooms .nav .tip                    { font-size: 18px; }
+    #colors .subnav .contentMyRooms .nav .menu                   { width: 442px; }
+    #colors .subnav .contentMyRooms .nav .menu .sub-tile         { width: 220px; height: 220px; margin-bottom: 2px; }
+    #colors .subnav .contentMyRooms .nav .menu .sub-tile span    { font-size: 18px; }
+
+    #colors .subnav .contentImagesMyRooms .top                   { width: 700px; height: 90px; }
+    #colors .subnav .contentImagesMyRooms .top .button           { height: 90px; }
+    #colors .subnav .contentImagesMyRooms .top .button img       { height: 22px; }
+    #colors .subnav .contentImagesMyRooms .top .title            { height: 90px; font-size: 21px; }
+
+    #colors .subnav .contentImagesMyRooms .nav                         { width: 440px; margin-left: -220px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu                   { width: 240px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu .sub-tile         { width: 240px; height: 80px; }
+    #colors .subnav .contentImagesMyRooms .nav .menu .sub-tile span    { font-size: 18px; }
+
+    #colors .myRoomsGalery .infos .top                           { width: none; margin: 50px 40px 0px 40px; float: left; }
+    #colors .myRoomsGalery .infos .top .title                    { font-size: 40px; }
+    #colors .myRoomsGalery .infos .top .date                     { font-size: 16px; }
+    #colors .myRoomsGalery .infos .colors                        { width: 350px; height: 90px; float: left; margin: 0 auto; padding-top: 50px; }
+
+    #colors .myRoomsGalery .infos .popColor .popbox              { height: 60px; }
+    #colors .myRoomsGalery .infos .popColor .popbox .text .name  { font-size: 18px; }
+    #colors .myRoomsGalery .infos .popColor .popbox .text .code  { font-size: 21px; }
+
+    #colors .myRoomsGalery .infos .colors .text                  { font-size: 16px; }
+    #colors .myRoomsGalery .infos .colors .list .boxColor        { width: 58px; height: 58px; }
+
+
+}
+
+

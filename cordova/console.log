@@ -1,0 +1,16 @@
+2013-07-07 18:42:27.294 helloword[31324:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-07 18:42:27.905 helloword[31324:c07] Resetting plugins due to page load.
+2013-07-07 18:42:28.022 helloword[31324:c07] Finished load of: file:///Users/waldemir/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/7E138F5B-EFD8-4EDE-B4D3-5590D8C57C4C/helloword.app/www/index.html
+2013-07-07 18:42:28.048 helloword[31324:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-07 18:42:28.052 helloword[31324:c07] Received Event: deviceready
+2013-07-07 18:50:08.878 helloword[31491:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-07 18:50:08.983 helloword[31491:c07] Resetting plugins due to page load.
+2013-07-07 18:50:09.073 helloword[31491:c07] Finished load of: file:///Users/waldemir/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/7E138F5B-EFD8-4EDE-B4D3-5590D8C57C4C/helloword.app/www/index.html
+2013-07-07 18:50:09.099 helloword[31491:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-07 18:50:09.103 helloword[31491:c07] The contact, Test User, note: This contact has a note.
+Terminating in response to SpringBoard's termination.
+2013-07-07 18:50:37.170 helloword[31636:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-07 18:50:37.285 helloword[31636:c07] Resetting plugins due to page load.
+2013-07-07 18:50:37.334 helloword[31636:c07] Finished load of: file:///Users/waldemir/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/7E138F5B-EFD8-4EDE-B4D3-5590D8C57C4C/helloword.app/www/index.html
+2013-07-07 18:50:37.359 helloword[31636:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-07 18:50:37.363 helloword[31636:c07] The contact, Test User, note: This contact has a note.

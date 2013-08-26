@@ -1,0 +1,40 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - HOME
+ */
+
+
+/* Home */
+#home {}
+#home .scroll{
+	overflow-x: auto;
+}
+
+.scroll .update { 
+	width: 100%; margin-top: 50px; text-align: center; background: url('../images/app/updater.png') center 5px no-repeat; padding: 40px 0 5px 0;
+}
+
+.scroll .oferta    {background: #fff;}
+.scroll .oferta img{}
+
+/*
+ * Medias
+ */
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+ 	/* Home */
+    /* #home .update img { width: 18px; height: 18px; } */
+}
+
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+    /* Home */
+    /* #home .update img { width: 24px; height: 24px; } */
+}
+
+

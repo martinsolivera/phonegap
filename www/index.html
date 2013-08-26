@@ -1,110 +1,248 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Capture Photo</title>
+    <head>
 
-    <script type="text/javascript" charset="utf-8" src="js/cordova-2.7.0.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    	<!-- Metas -->
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 
-        var pictureSource;   // picture source
-        var destinationType; // sets the format of returned value 
+        <!-- Title -->
+        <title>DICICO</title>
 
-        // Wait for Cordova to connect with the device
-        //
-        document.addEventListener("deviceready", onDeviceReady, false);
+        <!-- Styles -->.
+            
+            
+            
+            
+            
+            <link rel="stylesheet" href="application/assets/styles/idangerous.swiper.css">
+        <link rel="stylesheet" href="application/assets/styles/normalize.css">
+        <link rel="stylesheet" href="application/assets/styles/main.css">
+        <link rel="stylesheet" href="application/assets/styles/style.css">
+        <link rel="stylesheet" href="application/assets/styles/talk.css">
+        <link rel="stylesheet" href="application/assets/styles/calculator.css">
+        <link rel="stylesheet" href="application/assets/styles/metrics.css">
+        <link rel="stylesheet" href="application/assets/styles/colors.css">
+        <link rel="stylesheet" href="application/assets/styles/home.css">
+        <link rel="stylesheet" href="application/assets/styles/assistance.css">
+        <link rel="stylesheet" href="application/assets/styles/tips.css">
+        <link rel="stylesheet" href="application/assets/styles/work.css">
 
-        // Cordova is ready to be used!
-        //
-        function onDeviceReady() {
-            pictureSource = navigator.camera.PictureSourceType;
-            destinationType = navigator.camera.DestinationType;
-        }
+        <!-- Libs -->
+        <script type="text/javascript" src="application/libraries/jquery-2.0.2.min.js"></script>
+        <script type="text/javascript" src="application/libraries/jquery.event.drag-2.2.js"></script>
+        <script type="text/javascript" src="application/libraries/jquery.event.drop-2.2.js"></script>
+        <script type="text/javascript" src="application/libraries/idangerous.swiper.js"></script>
+        <script type="text/javascript" src="application/libraries/TweenMax.min.js"></script>
+        <script type="text/javascript" src="application/libraries/jquery.nestedAccordion.js"></script>
+        
+            
+        <script type="text/javascript" charset="utf-8" src="application/libraries/cordova.js"></script>
+        <script type="text/javascript" charset="utf-8">
+                document.addEventListener("deviceready",onDeviceReady,false);
+                
+                
+                var pictureSource;
+                var destinationType;
+                function onDeviceReady() {
+                    pictureSource=navigator.camera.PictureSourceType;
+                    destinationType=navigator.camera.DestinationType;
+                    
+                }
+                
+        </script>
+            
+            
 
-        // Called when a photo is successfully retrieved
-        //
-        function onPhotoDataSuccess(imageData) {
-            // Uncomment to view the base64 encoded image data
-            // console.log(imageData);
+        <!-- Initialize -->
+        <!--script type="text/javascript">app.initialize();</script-->
 
-            // Get image handle
-            //
-            var smallImage = document.getElementById('smallImage');
+    </head>
+    <body onload="javascript: appLoad();">
 
-            // Unhide image elements
-            //
-            smallImage.style.display = 'block';
 
-            // Show the captured photo
-            // The inline CSS rules are used to resize the image
-            //
-            smallImage.src = "data:image/jpeg;base64," + imageData;
-        }
+        <!-- BEGIN APPLICATION -->
 
-        // Called when a photo is successfully retrieved
-        //
-        function onPhotoURISuccess(imageURI) {
-            // Uncomment to view the image file URI 
-            // console.log(imageURI);
 
-            // Get image handle
-            //
-            var largeImage = document.getElementById('largeImage');
+        <div id="viewport">
 
-            // Unhide image elements
-            //
-            largeImage.style.display = 'block';
 
-            // Show the captured photo
-            // The inline CSS rules are used to resize the image
-            //
-            largeImage.src = imageURI;
-        }
+            <!-- Intro -->
+            <div id="intro">
+                <div class="shadow"></div>
+                <div class="container">
+                    <img class="background" src="application/assets/images/intro/background.jpg" width="100%" />
+                    <img class="logo" src="application/assets/images/intro/logo.png" height="64" />
+                    <img class="pattern" src="application/assets/images/intro/pattern.png" height="52" />
+                </div>
+            </div>
+            <!-- Intro -->
 
-        // A button will call this function
-        //
-        function capturePhoto() {
-            // Take picture using device camera and retrieve image as base64-encoded string
-            navigator.camera.getPicture(onPhotoDataSuccess, onFail, {
-                quality: 50,
-                destinationType: destinationType.DATA_URL
-            });
-        }
 
-        // A button will call this function
-        //
-        function capturePhotoEdit() {
-            // Take picture using device camera, allow edit, and retrieve image as base64-encoded string  
-            navigator.camera.getPicture(onPhotoDataSuccess, onFail, {
-                quality: 20, allowEdit: true,
-                destinationType: destinationType.DATA_URL
-            });
-        }
+            <!-- App -->
+            <div id="app">
 
-        // A button will call this function
-        //
-        function getPhoto(source) {
-            // Retrieve image file location from specified source
-            navigator.camera.getPicture(onPhotoURISuccess, onFail, {
-                quality: 50,
-                destinationType: destinationType.FILE_URI,
-                sourceType: source
-            });
-        }
 
-        // Called if something bad happens.
-        // 
-        function onFail(message) {
-            alert('Failed because: ' + message);
-        }
+                <!-- Main:Begin -->
+                <div id="main">
 
-    </script>
-  </head>
-  <body>
-    <button onclick="capturePhoto();">Capture Photo</button> <br>
-    <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-    <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-    <img style="display:none;" id="largeImage" src="" />
-  </body>
+                    
+                    <!-- Background:Begin -->
+                    <div id="background">
+                    </div>
+                    <!-- Background:End -->
+
+
+                	<!-- Navigation:Begin -->
+                    <div id="navigation">
+                        <ul class="menu">
+                            <li>
+                                <button type="button" data-navigation="home">
+                                    <img src="application/assets/images/navigation/icon_home.png" height="60%" />
+                                    <span>Início</span>
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button type="button" data-navigation="talk">
+                                    <img src="application/assets/images/navigation/icon_talk.png" height="60%" />
+                                    <span>Fale com a gente</span>
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button type="button" data-navigation="work">
+                                    <img src="application/assets/images/navigation/icon_work.png" height="60%" />
+                                    <span>Minha obra</span>
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button type="button" data-navigation="tips">
+                                    <img src="application/assets/images/navigation/icon_tips.png" height="60%" />
+                                    <span>Dicas</span>
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button type="button" data-navigation="assistance">
+                                    <img src="application/assets/images/navigation/icon_assistance.png" height="60%" />
+                                    <span>Assistência Técnica</span>
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+
+                        <!--div class="config">
+                            <button type="button" data-navigation="config">
+                                <img src="application/assets/images/navigation/icon_config.png" height="60%" />
+                                <span>Configurações</span>
+                            </button>
+                            <div class="clear"></div>
+                        </div-->
+                    </div>
+                    <!-- Navigation:End -->
+
+
+                    <!-- Viewer:Begin -->
+                    <div id="viewer">
+                        <div class="shadow-left"></div>
+                        <div class="shadow-right"></div>
+                        <div class="header">
+                            <div class="buttons">
+                                <img class="background" src="application/assets/images/app/header.png" width="100%" height="100%" />
+                                <button class="navigation" type="button">
+                                    <img class="on" src="application/assets/images/app/header_button_navigation_on.png" height="100%" />
+                                    <img class="off" src="application/assets/images/app/header_button_navigation_off.png" height="100%" />
+                                </button>
+                                <button class="appliance" type="button">
+                                    <img class="on" src="application/assets/images/app/header_button_appliance_on.png" height="100%" />
+                                    <img class="off" src="application/assets/images/app/header_button_appliance_off.png" height="100%" />
+                                </button>
+                                <div class="logo">
+                                    <img src="application/assets/images/app/logo.png" width="90" height="16" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content"></div>
+                    </div>
+                    <!-- Viewer:End -->
+
+
+                    <!-- Appliance:Begin -->
+                    <div id="appliance">
+                        <div class="title">
+                            <button type="button" disabled>
+                                <span>Tools</span>
+                            </button>
+                            <div class="clear"></div>
+                        </div>
+
+                        <ul class="tools">
+                            <li>
+                                <button class="calculator" type="button" data-navigation="calculator">
+                                    <img src="application/assets/images/appliance/icon_calculator.png" height="50%" />
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button class="metrics" type="button" data-navigation="metrics">
+                                    <img src="application/assets/images/appliance/icon_metrics.png" height="50%" />
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <button class="colors" type="button" data-navigation="colors">
+                                    <img src="application/assets/images/appliance/icon_colors.png" height="50%" />
+                                </button>
+                                <div class="clear"></div>
+                            </li>
+                            <!--li>
+                                <button class="visualize" type="button" data-navigation="visualize">
+                                    <img src="application/assets/images/appliance/icon_visualize.png" height="50%" />
+                                </button>
+                                <div class="clear"></div>
+                            </li-->
+                        </ul>
+                    </div>
+                    <!-- Appliance:End -->
+
+
+                </div>
+                <!-- Main:End -->
+
+
+                <!-- Tools:Begin -->
+                <div id="tools">
+                </div>
+                <!-- Tools:End -->
+
+
+            </div>
+            <!-- App -->
+
+
+        </div>
+
+
+        <!-- END APPLICATION -->
+
+
+        <!-- Controllers -->
+        <script type="text/javascript" src="application/controllers/main.js"></script>
+        <script type="text/javascript" src="application/controllers/viewer.js"></script>
+        <script type="text/javascript" src="application/controllers/header.js"></script>
+        <script type="text/javascript" src="application/controllers/navigation.js"></script>
+        <script type="text/javascript" src="application/controllers/intro.js"></script>
+        <script type="text/javascript" src="application/controllers/home.js"></script>
+        <script type="text/javascript" src="application/controllers/talk.js"></script>
+        <script type="text/javascript" src="application/controllers/work.js"></script>
+        <script type="text/javascript" src="application/controllers/tips.js"></script>
+        <script type="text/javascript" src="application/controllers/assistance.js"></script>
+        <script type="text/javascript" src="application/controllers/calculator.js"></script>
+        <script type="text/javascript" src="application/controllers/metrics.js"></script>
+        <script type="text/javascript" src="application/controllers/colors_list.js"></script>
+        <script type="text/javascript" src="application/controllers/colors.js"></script>
+    </body>
 </html>
+            

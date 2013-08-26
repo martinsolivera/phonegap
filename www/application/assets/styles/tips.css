@@ -1,0 +1,199 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - TIPS
+ */
+
+
+/* Tips */
+#tips                                                                                       { position: relative; background: #ffffff; }
+#tips .page                                                                                 { position: relative; width: 200%; height: 100%; overflow: hidden; }
+#tips .page .content                                                                        { position: relative; float: left; width: 50%; height: 100%; overflow: hidden; }
+#tips .page .content .heading                                                               { position: relative; padding-top: 54px; font-family: 'signikaregular'; color: #96989a; }
+#tips .page .content .heading .title                                                        { display: table; margin: 0 auto; text-transform: uppercase; }
+#tips .page .content .heading .title img                                                    { float: left; }
+#tips .page .content .nav                                                                   { position: relative; }
+#tips .page .content .nav .tip                                                              { text-align: center; font-family: 'signikaregular'; color: #7f7f7f; }
+#tips .page .content .nav .menu                                                             { margin: 0 auto; }
+#tips .page .content .nav .menu .nav-tile span                                              { font-family: 'signikaregular'; color: #ffffff; }
+
+#tips .page .pages                                                                          { position: relative; width: 50%; height: 100%; overflow: hidden; }
+#tips .page .nav-button-back                                                                { position: absolute; top: 0px; left: 0px; z-index: 900; background: #FFF; }
+#tips .page .nav-button-back img                                                            { height: 47px; width: 51px; margin-left: 0px; }
+
+#tips .page #bulding_wrapper                                                                { position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 5; display: block; }
+#tips .page #bulding_wrapper .wrapper                                                       { position: relative; width: 100%; height: 100%; font-family: 'signikaregular'; color: #96989a; text-align: center; z-index: 1; overflow-y: auto; }
+#tips .page #bulding_wrapper .wrapper .search                                               { position: relative; width: 100%; height: 47px; margin-top: 45px; background: #c0c1c2; font-family: 'signikalight'; color: #c1c3c6; font-size: 11px; }
+#tips .page #bulding_wrapper .wrapper .search .field                                        { position: absolute; width: 220px; height: 24px; background: #fff; border-radius: 25px; top: 50%; margin-top: -12px; left: 50%; margin-left: -110px; }
+#tips .page #bulding_wrapper .wrapper .search .field img                                    { position: absolute; top: 5px; left: 90%; }
+#tips .page #bulding_wrapper .wrapper .search .field .input                                 { position: relative; width: 90%; height: 80%; margin-left: 10px; text-align: left; padding-top: 5px; }
+#tips .page #bulding_wrapper .wrapper .wrapper_top                                          { position: relative; width: 100%; height: 50px; }
+#tips .page #bulding_wrapper .wrapper .wrapper_top .wrapper_title                           { position: relative; width: 69px; height: 50px; text-transform: uppercase; display: table; margin: 0 auto; }
+#tips .page #bulding_wrapper .wrapper .wrapper_top .wrapper_title img                       { position: relative; height: 20px; margin-top: 14px;  }
+#tips .page #bulding_wrapper .wrapper .wrapper_top .wrapper_title span                      { position: relative; height: 20px; display: table-cell; vertical-align: middle; }
+#tips .page #bulding_wrapper .wrapper .divisor                                              { width: 100%; }
+#tips .page #bulding_wrapper .subtitle                                                      { position: relative; height: 47px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#tips .page #bulding_wrapper .divList                                                       { position: relative; padding-right: 12px; padding-left: 12px; padding-bottom: 5px; }
+#tips .page #bulding_wrapper .divList .title                                                { position: relative; width: 100%; padding: 17px 12px; background: #9fa3a8; color: #FFF; text-align: left; font-size: 12px; display: table; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #7f8286; }
+#tips .page #bulding_wrapper .divList .title a                                              { position: relative; width: 222px; }
+#tips .page #bulding_wrapper .divList .contentList                                          { position: relative; color: #8d8d8d; font-size: 11px; line-height: 13px; font-family: 'signikalight'; text-align: left; display: table; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs                                  { position: relative; width: 100%; height: 198px; overflow: hidden; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-container                { width: 296px; height: 198px; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-slide                    { width: 296px; height: 198px; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-pagination-switch        { display: block; float: left; margin: 0 4px; width: 8px; height: 8px; border-radius: 8px; background: #ffffff; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-active-switch            { opacity: .5; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-visible-switch           { opacity: .5; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .images                          { position: absolute; width: 900px; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .images img                      { position: relative; float: left; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .navigate                        { position: absolute; width: 100%; height: 10px; z-index: 2; bottom: 10px; }
+#tips .page #bulding_wrapper .divList .contentList .thumbs .navigate .pagination            { position: relative; margin: 0 auto; display: table; }
+#tips .page #bulding_wrapper .divList .contentList .text                                    { position: relative; width: 272px; padding: 20px 12px; }
+
+#tips .page #endingwork_wrapper                                                             { position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 5; display: block; }
+#tips .page #endingwork_wrapper .wrapper                                                    { position: relative; width: 100%; height: 100%; font-family: 'signikaregular'; color: #96989a; text-align: center; z-index: 1; overflow-y: auto; }
+#tips .page #endingwork_wrapper .wrapper .search                                            { position: relative; width: 100%; height: 47px; margin-top: 45px; background: #c0c1c2; font-family: 'signikalight'; color: #c1c3c6; font-size: 11px; }
+#tips .page #endingwork_wrapper .wrapper .search .field                                     { position: absolute; width: 220px; height: 24px; background: #fff; border-radius: 25px; top: 50%; margin-top: -12px; left: 50%; margin-left: -110px; }
+#tips .page #endingwork_wrapper .wrapper .search .field img                                 { position: absolute; top: 5px; left: 90%; }
+#tips .page #endingwork_wrapper .wrapper .search .field .input                              { position: relative; width: 90%; height: 80%; margin-left: 10px; text-align: left; padding-top: 5px; }
+#tips .page #endingwork_wrapper .wrapper .wrapper_top                                       { position: relative; width: 100%; height: 50px; }
+#tips .page #endingwork_wrapper .wrapper .wrapper_top .wrapper_title                        { position: relative; width: 69px; height: 50px; text-transform: uppercase; display: table; margin: 0 auto; }
+#tips .page #endingwork_wrapper .wrapper .wrapper_top .wrapper_title img                    { position: relative; height: 20px; margin-top: 14px;  }
+#tips .page #endingwork_wrapper .wrapper .wrapper_top .wrapper_title span                   { position: relative; height: 20px; display: table-cell; vertical-align: middle; }
+#tips .page #endingwork_wrapper .wrapper .divisor                                           { width: 100%; }
+#tips .page #endingwork_wrapper .subtitle                                                   { position: relative; height: 47px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#tips .page #endingwork_wrapper .divList                                                    { position: relative; padding-right: 12px; padding-left: 12px; padding-bottom: 5px; }
+#tips .page #endingwork_wrapper .divList .title                                             { position: relative; width: 100%; padding: 17px 12px; background: #9fa3a8; color: #FFF; text-align: left; font-size: 12px; display: table; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #7f8286; }
+#tips .page #endingwork_wrapper .divList .title a                                           { position: relative; width: 222px; }
+#tips .page #endingwork_wrapper .divList .contentList                                       { position: relative; color: #8d8d8d; font-size: 11px; line-height: 13px; font-family: 'signikalight'; text-align: left; display: table; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs                               { position: relative; width: 100%; height: 198px; overflow: hidden; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-container             { width: 296px; height: 198px; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-slide                 { width: 296px; height: 198px; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-pagination-switch     { display: block; float: left; margin: 0 4px; width: 8px; height: 8px; border-radius: 8px; background: #ffffff; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-active-switch         { opacity: .5; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-visible-switch        { opacity: .5; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .images                       { position: absolute; width: 900px; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .images img                   { position: relative; float: left; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .navigate                     { position: absolute; width: 100%; height: 10px; z-index: 2; bottom: 10px; }
+#tips .page #endingwork_wrapper .divList .contentList .thumbs .navigate .pagination         { position: relative; margin: 0 auto; display: table; }
+#tips .page #endingwork_wrapper .divList .contentList .text                                 { position: relative; width: 272px; padding: 20px 12px; }
+
+#tips .page #forhome_wrapper                                                                { position: absolute; width: 100%; height: 100%; background: #fff; top: 0px; z-index: 5; display: block; }
+#tips .page #forhome_wrapper .wrapper                                                       { position: relative; width: 100%; height: 100%; font-family: 'signikaregular'; color: #96989a; text-align: center; z-index: 1; overflow-y: auto; }
+#tips .page #forhome_wrapper .wrapper .search                                               { position: relative; width: 100%; height: 47px; margin-top: 45px; background: #c0c1c2; font-family: 'signikalight'; color: #c1c3c6; font-size: 11px; }
+#tips .page #forhome_wrapper .wrapper .search .field                                        { position: absolute; width: 220px; height: 24px; background: #fff; border-radius: 25px; top: 50%; margin-top: -12px; left: 50%; margin-left: -110px; }
+#tips .page #forhome_wrapper .wrapper .search .field img                                    { position: absolute; top: 5px; left: 90%; }
+#tips .page #forhome_wrapper .wrapper .search .field .input                                 { position: relative; width: 90%; height: 80%; margin-left: 10px; text-align: left; padding-top: 5px; }
+#tips .page #forhome_wrapper .wrapper .wrapper_top                                          { position: relative; width: 100%; height: 50px; }
+#tips .page #forhome_wrapper .wrapper .wrapper_top .wrapper_title                           { position: relative; width: 120px; height: 50px; text-transform: uppercase; display: table; margin: 0 auto; }
+#tips .page #forhome_wrapper .wrapper .wrapper_top .wrapper_title img                       { position: relative; height: 20px; margin-top: 14px;  }
+#tips .page #forhome_wrapper .wrapper .wrapper_top .wrapper_title span                      { position: relative; height: 20px; display: table-cell; vertical-align: middle; }
+#tips .page #forhome_wrapper .wrapper .divisor                                              { width: 100%; }
+#tips .page #forhome_wrapper .subtitle                                                      { position: relative; height: 47px; margin-top: 25px; font-family: 'signikaregular'; color: #2d3136; text-align: center; }
+#tips .page #forhome_wrapper .divList                                                       { position: relative; padding-right: 12px; padding-left: 12px; padding-bottom: 5px; }
+#tips .page #forhome_wrapper .divList .title                                                { position: relative; width: 100%; padding: 17px 12px 17px 17px; background: #9fa3a8; color: #FFF; text-align: left; font-size: 12px; display: table; border-top: 1px solid #cfd1d4; border-bottom: 1px solid #7f8286; }
+#tips .page #forhome_wrapper .divList .title a                                              { position: relative; width: 222px; }
+#tips .page #forhome_wrapper .divList .contentList                                          { position: relative; color: #8d8d8d; font-size: 11px; line-height: 13px; font-family: 'signikalight'; text-align: left; display: table; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs                                  { position: relative; width: 100%; height: 198px; overflow: hidden; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-container                { width: 296px; height: 198px; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-slide                    { width: 296px; height: 198px; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-pagination-switch        { display: block; float: left; margin: 0 4px; width: 8px; height: 8px; border-radius: 8px; background: #ffffff; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-active-switch            { opacity: .5; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-visible-switch           { opacity: .5; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .images                          { position: absolute; width: 900px; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .images img                      { position: relative; float: left; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .navigate                        { position: absolute; width: 100%; height: 10px; z-index: 2; bottom: 10px; }
+#tips .page #forhome_wrapper .divList .contentList .thumbs .navigate .pagination            { position: relative; margin: 0 auto; display: table; }
+#tips .page #forhome_wrapper .divList .contentList .text                                    { position: relative; width: 272px; padding: 20px 12px; }
+
+
+
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+    /* Tips */
+    #tips .content .heading                                                                 { font-size: 15px; }
+    #tips .page .content .heading                                                           { margin: 11px 0; }
+    #tips .page .content .heading .title                                                    { width: 72px; }
+    #tips .page .content .heading .title img                                                { margin-right: 8px; height: 20px; }
+    #tips .page .content .heading .title p                                                  { padding-top: 1px; }
+    #tips .page .content .divisor                                                           { height: 1px; }
+    #tips .page .content .nav                                                               { margin-top: 17px; }
+    #tips .page .content .nav .menu                                                         { width: 287px; }
+    #tips .page .content .nav .menu .nav-tile                                               { width: 143px; height: 140px; }
+    #tips .page .content .nav .menu .nav-tile span                                          { font-size: 11px; }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+
+    /* Tips */
+    #tips .content .heading                                                                 { font-size: 21px; }
+    #tips .page .content .heading                                                           { margin: 22px 0; }
+    #tips .page .content .heading .title                                                    { width: 111px; }
+    #tips .page .content .heading .title img                                                { margin-right: 8px; height: 34px; }
+    #tips .page .content .heading .title p                                                  { padding-top: 2px; }
+    #tips .page .content .divisor                                                           { height: 2px; }
+    #tips .page .content .nav                                                               { width: 440px; margin: 35px auto; }
+    #tips .page .content .nav .menu                                                         { width: 440px; }
+    #tips .page .content .nav .menu .nav-tile                                               { width: 220px; height: 220px; }
+    #tips .page .content .nav .menu .nav-tile span                                          { font-size: 18px; }
+
+    #tips .page #bulding_wrapper .wrapper .search                                           { padding-top: 12px; }
+    #tips .page #bulding_wrapper .wrapper .search .field                                    { position: relative; width: 670px; height: 33px;  border-radius: 65px; top: 0; margin-top: 0; left: 0; margin-left: 0; margin: 0 auto; font-size: 14px; }
+    #tips .page #bulding_wrapper .wrapper .search .field img                                { height: 24px; left: 95%; }
+    #tips .page #bulding_wrapper .wrapper .search .field .input                             { width: 90%; height: 100%; margin-left: -20px; padding-top: 0px; }
+    #tips .page #bulding_wrapper .wrapper .wrapper_top                                      { height: 90px; font-size: 21px; }
+    #tips .page #bulding_wrapper .wrapper .wrapper_top .wrapper_title                       { height: 90px; }
+    #tips .page #bulding_wrapper .subtitle                                                  { font-size: 18px; }
+    #tips .page #bulding_wrapper .divList                                                   { width: 700px; margin: 0 auto; }
+    #tips .page #bulding_wrapper .divList .title                                            { font-size: 16px; width: 674px; }
+    #tips .page #bulding_wrapper .divList .contentList                                      { width: 100%; }
+    #tips .page #bulding_wrapper .divList .contentList .thumbs                              { height: 232px; }
+    #tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-container            { width: 700px; height: 232px; }
+    #tips .page #bulding_wrapper .divList .contentList .thumbs .swiper-slide                { width: 350px; height: 232px; }
+    #tips .page #bulding_wrapper .divList .contentList .text                                { width: 676px; line-height: 18px; font-size: 16px; }
+
+    #tips .page #endingwork_wrapper .wrapper .search                                        { padding-top: 12px; }
+    #tips .page #endingwork_wrapper .wrapper .search .field                                 { position: relative; width: 670px; height: 33px;  border-radius: 65px; top: 0; margin-top: 0; left: 0; margin-left: 0; margin: 0 auto; font-size: 14px; }
+    #tips .page #endingwork_wrapper .wrapper .search .field img                             { height: 24px; left: 95%; }
+    #tips .page #endingwork_wrapper .wrapper .search .field .input                          { width: 90%; height: 100%; margin-left: -20px; padding-top: 0px; }
+    #tips .page #endingwork_wrapper .wrapper .wrapper_top                                   { height: 90px; font-size: 21px; }
+    #tips .page #endingwork_wrapper .wrapper .wrapper_top .wrapper_title                    { height: 90px; }
+    #tips .page #endingwork_wrapper .subtitle                                               { font-size: 18px; }
+    #tips .page #endingwork_wrapper .divList                                                { width: 700px; margin: 0 auto; }
+    #tips .page #endingwork_wrapper .divList .title                                         { font-size: 16px; width: 674px; }
+    #tips .page #endingwork_wrapper .divList .contentList                                   { width: 100%; }
+    #tips .page #endingwork_wrapper .divList .contentList .thumbs                           { height: 232px; }
+    #tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-container         { width: 700px; height: 232px; }
+    #tips .page #endingwork_wrapper .divList .contentList .thumbs .swiper-slide             { width: 350px; height: 232px; }
+    #tips .page #endingwork_wrapper .divList .contentList .text                             { width: 676px; line-height: 18px; font-size: 16px; }
+
+    #tips .page #forhome_wrapper .wrapper .search                                           { padding-top: 12px; }
+    #tips .page #forhome_wrapper .wrapper .search .field                                    { position: relative; width: 670px; height: 33px;  border-radius: 65px; top: 0; margin-top: 0; left: 0; margin-left: 0; margin: 0 auto; font-size: 14px; }
+    #tips .page #forhome_wrapper .wrapper .search .field img                                { height: 24px; left: 95%; }
+    #tips .page #forhome_wrapper .wrapper .search .field .input                             { width: 90%; height: 100%; margin-left: -20px; padding-top: 0px; }
+    #tips .page #forhome_wrapper .wrapper .wrapper_top                                      { height: 90px; font-size: 21px; }
+    #tips .page #forhome_wrapper .wrapper .wrapper_top .wrapper_title                       { height: 90px; }
+    #tips .page #forhome_wrapper .subtitle                                                  { font-size: 18px; }
+    #tips .page #forhome_wrapper .divList                                                   { width: 700px; margin: 0 auto; }
+    #tips .page #forhome_wrapper .divList .title                                            { font-size: 16px; width: 674px; }
+    #tips .page #forhome_wrapper .divList .contentList                                      { width: 100%; }
+    #tips .page #forhome_wrapper .divList .contentList .thumbs                              { height: 232px; }
+    #tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-container            { width: 700px; height: 232px; }
+    #tips .page #forhome_wrapper .divList .contentList .thumbs .swiper-slide                { width: 350px; height: 232px; }
+    #tips .page #forhome_wrapper .divList .contentList .text                                { width: 676px; line-height: 18px; font-size: 16px; }
+
+}
+
+

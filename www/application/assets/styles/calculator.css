@@ -1,0 +1,214 @@
+/*
+ * DICICO APP
+ * ---------------
+ * Css Style - CALCULATOR
+ */
+
+
+/* Calculator */
+#calculator { position: relative; background: url( '../images/app/background.jpg' ); }
+#calculator .back button { position: relative; float: left; width: 16px; height: 46px; background: #134378; overflow: hidden; }
+#calculator .back button img { position: absolute; top: 0; right: 0; }
+#calculator .page { height: 100%; background: #ffffff; }
+#calculator .page .content { background: #ffffff; }
+#calculator .page .content .heading { position: relative; font-family: 'signikaregular'; color: #134378; }
+#calculator .page .content .heading .title { display: table; margin: 0 auto; text-transform: uppercase; }
+#calculator .page .content .heading .title img { float: left; }
+#calculator .page .content .nav { position: relative; }
+#calculator .page .content .nav .tip { text-align: center; font-family: 'signikaregular'; color: #7f7f7f; }
+#calculator .page .content .nav .menu { margin: 0 auto; }
+#calculator .page .content .nav .menu .nav-tile span { font-family: 'signikaregular'; }
+#calculator .subnav { display: none; position: absolute; top: 0; width: 100%; height: 100%; z-index: 2; }
+#calculator .subnav .content { position: relative; width: 100%; height: 100%; overflow: hidden; }
+#calculator .subnav .content .background { position: absolute; width: 100%; height: 100%; background: #134378; opacity: .95; }
+#calculator .subnav .content .nav { position: relative; top: 50%; margin: 0 auto; }
+#calculator .subnav .content .nav .tip { text-align: center; font-family: 'signikaregular'; color: #ffffff; }
+#calculator .subnav .content .nav .menu .sub-tile span { font-family: 'signikaregular'; }
+#calculator .calculator { position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; background: #ffffff; }
+#calculator .calculator .input { position: relative; width: 100%; height: 100%; overflow: auto; }
+#calculator .calculator .input .heading { position: relative; font-family: 'signikalight'; color: #134378; }
+#calculator .calculator .input .heading .close { position: absolute; right: 0; }
+#calculator .calculator .input .heading .title { position: relative; display: table; margin: 0 auto; text-transform: uppercase; }
+#calculator .calculator .input .heading .title img { float: left; }
+#calculator .calculator .input .heading .title p { float: left; }
+#calculator .calculator .input .heading .type { text-align: center; text-transform: uppercase; color: #96989a; }
+#calculator .calculator .input .fields { position: relative; margin: 0 auto; }
+#calculator .calculator .input .fields .tip { font-family: 'signikaregular'; color: #2d3136; }
+#calculator .calculator .input .fields .row {}
+#calculator .calculator .input .fields .column { float: left; }
+#calculator .calculator .input .fields .labels { font-family: 'signikaregular'; color: #7f7f7f; }
+#calculator .calculator .input .fields .form .add { position: absolute; left: 100%; background: transparent; }
+#calculator .calculator .input .fields .form .add img { position: relative; left: 0; }
+#calculator .calculator .input .fields .form .column { background: #ebeced; border-bottom: 2px solid #bcbdbe; }
+#calculator .calculator .input .fields .form input { background: transparent; font-family: 'signikaregular'; color: #95999f; }
+#calculator .calculator .input .calculate { display: table; margin: 0 auto; }
+#calculator .calculator .input .calculate button { opacity: .5; position: relative; width: 218px; height: 46px; color: #ffffff; text-align: center; overflow: hidden; background: #134378; border-top: 1px solid #89a1bc; border-bottom: 2px solid #0b2848; }
+#calculator .calculator .input .calculate button img { position: absolute; top: 0; left: 0; width: 105px; height: 92px; }
+#calculator .calculator .input .calculate button span { font-family: 'signikalight'; text-transform: uppercase; }
+#calculator .calculator .output { position: relative; width: 100%; height: 100%; }
+#calculator .calculator .output .content { height: 100%; overflow: scroll; }
+#calculator .calculator .output .heading { position: relative; font-family: 'signikalight'; color: #134378; }
+#calculator .calculator .output .heading .close { position: absolute; right: 0; }
+#calculator .calculator .output .heading .title { position: relative; display: table; margin: 0 auto; text-transform: uppercase; }
+#calculator .calculator .output .heading .title img { float: left; }
+#calculator .calculator .output .heading .title p { float: left; }
+#calculator .calculator .output .heading .type { text-align: center; text-transform: uppercase; color: #96989a; }
+#calculator .calculator .output .calculation { display: table; margin: 0 auto; }
+#calculator .calculator .output .calculation .result { color: #7f7f7f; text-align: center; }
+#calculator .calculator .output .calculation .result .label { font-family: 'signikalight'; }
+#calculator .calculator .output .calculation .result .value { font-family: 'signikaregular'; }
+#calculator .calculator .output .info { position: fixed; bottom: 0; width: 100%; }
+#calculator .calculator .output .info .tip { float: left; overflow: hidden; }
+#calculator .calculator .output .info .save { float: right; overflow: hidden; }
+#calculator .calculator .output .info .panel { position: absolute; bottom: -280px; width: 100%; background: url( '../images/calculator/info_background.jpg' ); overflow: hidden; -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.59); box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.59); }
+#calculator .calculator .output .info .panel .asterisc { position: absolute; }
+#calculator .calculator .output .info .panel .tips { font-family: 'signikalight'; color: #ffffff; }
+#calculator .calculator .output .info .panel .alert { font-family: 'signikaregular'; text-align: center; text-transform: uppercase; color: #ffffff; }
+
+
+
+
+
+/*
+ * Medias
+ */
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and ( min-width : 320px ) {
+
+
+    
+    /* Calculator */
+    #calculator .content .heading { font-size: 15px; }
+    #calculator .page .content .heading { margin: 11px 0; }
+    #calculator .page .content .heading .title { width: 230px; }
+    #calculator .page .content .heading .title img { margin-right: 8px; height: 24px; }
+    #calculator .page .content .heading .title p { padding-top: 4px; }
+    #calculator .page .content .divisor { height: 1px; }
+    #calculator .page .content .nav .tip { padding: 19px 0; font-size: 11px; }
+    #calculator .page .content .nav .menu { width: 288px; }
+    #calculator .page .content .nav .menu .nav-tile { width: 143px; height: 140px; }
+    #calculator .page .content .nav .menu .nav-tile img { margin-bottom: 9px; }
+    #calculator .page .content .nav .menu .nav-tile .tiles { height: 20px; }
+    #calculator .page .content .nav .menu .nav-tile .tint { height: 44px; }
+    #calculator .page .content .nav .menu .nav-tile .air { height: 21px; }
+    #calculator .page .content .nav .menu .nav-tile span { font-size: 11px; }
+    #calculator .subnav .content .nav { margin-top: -85px; width: 288px; }
+    #calculator .subnav .content .nav .tip { padding: 0 0 26px 0; font-size: 15px; }
+    #calculator .subnav .content .nav .menu .sub-tile { width: 143px; height: 143px; }
+    #calculator .subnav .content .nav .menu .sub-tile span { font-size: 15px; }
+    #calculator .calculator .input .heading .close { margin: 10px 16px 0 0; width: 28px; height: 28px; }
+    #calculator .calculator .input .heading .close img { width: 28px; height: 28px; }
+    #calculator .calculator .input .heading .title { padding: 11px 0; }
+    #calculator .calculator .input .heading .title img { margin-right: 8px; height: 24px; }
+    #calculator .calculator .input .heading .title p { padding-top: 4px; font-size: 15px; }
+    #calculator .calculator .input .heading .divisor { height: 1px; }
+    #calculator .calculator .input .heading .type { margin-top: 17px; font-size: 20px; }
+    #calculator .calculator .input .fields { margin-top: 19px; width: 218px; }
+    #calculator .calculator .input .fields .tip { margin-bottom: 25px; font-size: 11px; }
+    #calculator .calculator .input .fields .row { margin-bottom: 2px; }
+    #calculator .calculator .input .fields .column { width: 108px; }
+    #calculator .calculator .input .fields .cellpad { margin-right: 2px; }
+    #calculator .calculator .input .fields .labels { margin-bottom: 8px; font-size: 11px; }
+    #calculator .calculator .input .fields .form .add { margin-left: 6px; width: 17px; height: 43px; }
+    #calculator .calculator .input .fields .form .add img { margin-left: -6px; width: 17px; height: 17px; }
+    #calculator .calculator .input .fields .form .column { height: 41px; }
+    #calculator .calculator .input .fields .form input { margin: 5px; width: 98px; height: 31px; font-size: 24px; }
+    #calculator .calculator .input .calculate button { margin: 27px 0; width: 218px; height: 46px; }
+    #calculator .calculator .input .calculate button img { width: 52px; height: 46px; }
+    #calculator .calculator .input .calculate button span { margin-left: 52px; font-size: 20px; }
+    #calculator .calculator .output .heading .close { margin: 10px 16px 0 0; width: 28px; height: 28px; }
+    #calculator .calculator .output .heading .close img { width: 28px; height: 28px; }
+    #calculator .calculator .output .heading .title { padding: 11px 0; }
+    #calculator .calculator .output .heading .title img { margin-right: 8px; height: 24px; }
+    #calculator .calculator .output .heading .title p { padding-top: 4px; font-size: 15px; }
+    #calculator .calculator .output .heading .divisor { height: 1px; }
+    #calculator .calculator .output .heading .type { margin-top: 17px; font-size: 20px; }
+    #calculator .calculator .output .calculation { margin: 31px auto; }
+    #calculator .calculator .output .calculation .result { margin-top: 16px; }
+    #calculator .calculator .output .calculation .result .label { font-size: 13px; }
+    #calculator .calculator .output .calculation .result .value { font-size: 43px; }
+    #calculator .calculator .output .info .tip { margin: 0 0 16px 17px; width: 24px; height: 23px; }
+    #calculator .calculator .output .info .tip img { width: 24px; height: 23px; }
+    #calculator .calculator .output .info .save { margin: 0 17px 16px 0; width: 24px; height: 23px; }
+    #calculator .calculator .output .info .save img { width: 24px; height: 23px; }
+    #calculator .calculator .output .info .panel { height: 123px; }
+    #calculator .calculator .output .info .panel .asterisc { top: 7px; left: 20px; width: 9px; height: 9px; }
+    #calculator .calculator .output .info .panel .asterisc img { width: 9px; height: 9px; }
+    #calculator .calculator .output .info .panel .tips { padding: 15px 50px 7px 50px; font-size: 10px; }
+    #calculator .calculator .output .info .panel .alert { padding: 0 50px; font-size: 10px; }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and ( min-width : 768px ) {
+
+    /* Calculator */
+    #calculator .content .heading                               { font-size: 21px; }
+    #calculator .page .content .heading                         { margin: 22px 0; }
+    #calculator .page .content .heading .title                  { width: 330px; }
+    #calculator .page .content .heading .title img              { margin-right: 17px; height: 38px; }
+    #calculator .page .content .heading .title p                { padding-top: 8px; }
+    #calculator .page .content .divisor                         { height: 2px; }
+    #calculator .page .content .nav .tip                        { padding: 38px 0; font-size: 18px; }
+    #calculator .page .content .nav .menu                       { width: 440px; }
+    #calculator .page .content .nav .menu .nav-tile             { width: 220px; height: 220px; }
+    #calculator .page .content .nav .menu .nav-tile img         { margin-bottom: 18px; }
+    #calculator .page .content .nav .menu .nav-tile .tiles      { height: 29px; }
+    #calculator .page .content .nav .menu .nav-tile .tint       { height: 69px; }
+    #calculator .page .content .nav .menu .nav-tile .air        { height: 33px; }
+    #calculator .page .content .nav .menu .nav-tile span        { font-size: 18px; }
+    #calculator .subnav .content .nav                           { margin-top: -180px; width: 442px; }
+    #calculator .subnav .content .nav .tip                      { padding: 0 0 43px 0; font-size: 21px; }
+    #calculator .subnav .content .nav .menu                     { width: 442px; }
+    #calculator .subnav .content .nav .menu .sub-tile           { width: 220px; height: 220px; }
+    #calculator .subnav .content .nav .menu .sub-tile span      { font-size: 21px; }
+    #calculator .calculator .input .heading .close              { margin: 21px 23px 0 0; width: 36px; height: 36px; }
+    #calculator .calculator .input .heading .close img          { width: 36px; height: 36px; }
+    #calculator .calculator .input .heading .title              { padding: 22px 0; }
+    #calculator .calculator .input .heading .title img          { margin-right: 17px; height: 39px; }
+    #calculator .calculator .input .heading .title p            { padding-top: 8px; font-size: 21px; }
+    #calculator .calculator .input .heading .divisor            { height: 2px; }
+    #calculator .calculator .input .heading .type               { margin-top: 34px; font-size: 32px; }
+
+    #calculator .calculator .input .fields                      { margin-top: 38px; width: 436px; }
+    #calculator .calculator .input .fields .tip                 { margin-bottom: 50px; font-size: 18px; }
+    #calculator .calculator .input .fields .row                 { margin-bottom: 5px; }
+    #calculator .calculator .input .fields .column              { width: 215px; }
+    #calculator .calculator .input .fields .cellpad             { margin-right: 5px; }
+    #calculator .calculator .input .fields .labels              { margin-bottom: 17px; font-size: 18px; }
+    #calculator .calculator .input .fields .form .add           { margin-left: 13px; width: 35px; height: 75px; }
+    #calculator .calculator .input .fields .form .add img       { margin-left: -6px; width: 35px; height: 35px; }
+    #calculator .calculator .input .fields .form .column        { height: 72px; }
+    #calculator .calculator .input .fields .form input          { margin: 10px; width: 195px; height: 52px; font-size: 28px; }
+    #calculator .calculator .input .calculate button            { margin: 54px 0; width: 436px; height: 92px; }
+    #calculator .calculator .input .calculate button img        { width: 105px; height: 92px; }
+    #calculator .calculator .input .calculate button span       { margin-left: 105px; font-size: 40px; }
+
+    #calculator .calculator .output .heading .close             { margin: 21px 23px 0 0; width: 36px; height: 36px; }
+    #calculator .calculator .output .heading .close img         { width: 36px; height: 36px; }
+    #calculator .calculator .output .heading .title             { padding: 22px 0; }
+    #calculator .calculator .output .heading .title img         { margin-right: 17px; height: 39px; }
+    #calculator .calculator .output .heading .title p           { padding-top: 8px; font-size: 21px; }
+    #calculator .calculator .output .heading .divisor           { height: 2px; }
+    #calculator .calculator .output .heading .type              { margin-top: 34px; font-size: 32px; }
+    #calculator .calculator .output .calculation                { margin: 62px auto; }
+    #calculator .calculator .output .calculation .result        { margin-top: 32px; }
+    #calculator .calculator .output .calculation .result .label { font-size: 27px; }
+    #calculator .calculator .output .calculation .result .value { font-size: 57px; }
+    #calculator .calculator .output .info .tip                  { margin: 0 0 32px 34px; width: 38px; height: 37px; }
+    #calculator .calculator .output .info .tip img              { width: 38px; height: 37px; }
+    #calculator .calculator .output .info .save                 { margin: 0 24px 32px 0; width: 38px; height: 37px; }
+    #calculator .calculator .output .info .save img             { width: 38px; height: 37px; }
+    #calculator .calculator .output .info .panel                { height: 246px; }
+    #calculator .calculator .output .info .panel .asterisc      { top: 14px; left: 40px; width: 18px; height: 18px; }
+    #calculator .calculator .output .info .panel .asterisc img  { width: 18px; height: 18px; }
+    #calculator .calculator .output .info .panel .tips          { padding: 30px 100px 15px 100px; font-size: 18px; }
+    #calculator .calculator .output .info .panel .alert         { padding: 0 100px; font-size: 20px; }
+
+}
+
+
